@@ -2563,10 +2563,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get finish => 'انهاء';
 
   @override
-  String get phaseOne => 'التوثيق الأول';
+  String get phaseMekat => 'توثيق الميقات';
 
   @override
-  String get phaseTwo => 'التوثيق الثاني';
+  String get phaseTawaf => 'توثيق الطواف';
 
   @override
   String get tawafInstructions => 'إرشادات الطواف';
@@ -2581,7 +2581,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tawafVerifyDuaa => 'توثيق فيديو تلبية الدعاء لصاحب العمره';
 
   @override
-  String get phaseThree => 'التوثيق الثالث';
+  String get phaseMakam => 'توثيق مقام إبراهيم';
 
   @override
   String get makamInstructions => 'إرشادات المقام الإبراهيمي';
@@ -2598,7 +2598,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'صورة للمكان من الخلف أو للقبّة الزجاجية للمقام.';
 
   @override
-  String get phaseFour => 'التوثيق الرابع';
+  String get phaseSafaAndMarwa => 'توثيق السعي بين الصفا والمروة';
 
   @override
   String get safaMarwaInstructions => 'السعي بين الصفا والمروة';
@@ -2626,13 +2626,13 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get mekatVerifyFirst =>
-      'التوثيق الاول عن طريق الجوجل ماب لتحديد الميقات';
+      'توثيق الميقات عن طريق خرائط جوجل';
 
   @override
-  String get mekatVerifySecond => 'التوثيق التاني عن طريق الفيديو';
+  String get mekatVerifySecond => 'توثيق الميقات عن طريق الفيديو';
 
   @override
-  String get phaseFive => 'التوثيق الخامس';
+  String get phaseTahalol => 'توثيق التحلل';
 
   @override
   String get tahalolVideo => 'فيديو';

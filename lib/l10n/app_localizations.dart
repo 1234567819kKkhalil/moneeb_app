@@ -4376,17 +4376,17 @@ abstract class AppLocalizations {
   /// **'Finish'**
   String get finish;
 
-  /// No description provided for @phaseOne.
+  /// No description provided for @phaseMekat.
   ///
   /// In en, this message translates to:
-  /// **'Phase One'**
-  String get phaseOne;
+  /// **'Miqat Documentation'**
+  String get phaseMekat;
 
-  /// No description provided for @phaseTwo.
+  /// No description provided for @phaseTawaf.
   ///
   /// In en, this message translates to:
-  /// **'Phase Two'**
-  String get phaseTwo;
+  /// **'Tawaf Documentation'**
+  String get phaseTawaf;
 
   /// No description provided for @tawafInstructions.
   ///
@@ -4412,11 +4412,11 @@ abstract class AppLocalizations {
   /// **'Verify video of Duaa for the Umrah owner'**
   String get tawafVerifyDuaa;
 
-  /// No description provided for @phaseThree.
+  /// No description provided for @phaseMakam.
   ///
   /// In en, this message translates to:
-  /// **'Phase Three'**
-  String get phaseThree;
+  /// **'Maqam Ibrahim Documentation'**
+  String get phaseMakam;
 
   /// No description provided for @makamInstructions.
   ///
@@ -4442,11 +4442,11 @@ abstract class AppLocalizations {
   /// **'Picture of the place from behind or the glass dome of the Makam.'**
   String get makamVerifyImage;
 
-  /// No description provided for @phaseFour.
+  /// No description provided for @phaseSafaAndMarwa.
   ///
   /// In en, this message translates to:
-  /// **'Phase Four'**
-  String get phaseFour;
+  /// **'Safa and Marwa Documentation'**
+  String get phaseSafaAndMarwa;
 
   /// No description provided for @safaMarwaInstructions.
   ///
@@ -4502,11 +4502,11 @@ abstract class AppLocalizations {
   /// **'Second documentation via Video'**
   String get mekatVerifySecond;
 
-  /// No description provided for @phaseFive.
+  /// No description provided for @phaseTahalol.
   ///
   /// In en, this message translates to:
-  /// **'Phase Five'**
-  String get phaseFive;
+  /// **'Tahallul Documentation'**
+  String get phaseTahalol;
 
   /// No description provided for @tahalolVideo.
   ///

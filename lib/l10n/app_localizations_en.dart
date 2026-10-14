@@ -2558,10 +2558,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get finish => 'Finish';
 
   @override
-  String get phaseOne => 'Phase One';
+  String get phaseMekat => 'Miqat Documentation';
 
   @override
-  String get phaseTwo => 'Phase Two';
+  String get phaseTawaf => 'Tawaf Documentation';
 
   @override
   String get tawafInstructions => 'Tawaf Instructions';
@@ -2576,7 +2576,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get tawafVerifyDuaa => 'Verify video of Duaa for the Umrah owner';
 
   @override
-  String get phaseThree => 'Phase Three';
+  String get phaseMakam => 'Maqam Ibrahim Documentation';
 
   @override
   String get makamInstructions => 'Makam Ibrahim Instructions';
@@ -2593,7 +2593,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Picture of the place from behind or the glass dome of the Makam.';
 
   @override
-  String get phaseFour => 'Phase Four';
+  String get phaseSafaAndMarwa => 'Safa and Marwa Documentation';
 
   @override
   String get safaMarwaInstructions => 'Safa and Marwa';
@@ -2628,7 +2628,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get mekatVerifySecond => 'Second documentation via Video';
 
   @override
-  String get phaseFive => 'Phase Five';
+  String get phaseTahalol => 'Tahallul Documentation';
 
   @override
   String get tahalolVideo => 'Video';

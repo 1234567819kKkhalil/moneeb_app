@@ -184,8 +184,7 @@ enum OmrahStepsEnum {
     }
   }
 
-  /// The ritual steps in the order they are performed. Phase numbering is
-  /// derived from it, so disabling a step renumbers the ones after it.
+  /// The ritual steps in the order they are performed.
   static const List<OmrahStepsEnum> ritualOrder = [
     OmrahStepsEnum.mekat,
     OmrahStepsEnum.tawaf,
@@ -195,21 +194,22 @@ enum OmrahStepsEnum {
     OmrahStepsEnum.tahalol,
   ];
 
-  /// Localized "Phase N" title matching this step's position in [ritualOrder].
+  /// Localized documentation title for this step (e.g. "Miqat Documentation").
   String getPhaseTitle() {
-    switch (ritualOrder.indexOf(this) + 1) {
-      case 1:
-        return appLocalizer.phaseOne;
-      case 2:
-        return appLocalizer.phaseTwo;
-      case 3:
-        return appLocalizer.phaseThree;
-      case 4:
-        return appLocalizer.phaseFour;
-      case 5:
-        return appLocalizer.phaseFive;
-      default:
+    switch (this) {
+      case OmrahStepsEnum.mekat:
+        return appLocalizer.phaseMekat;
+      case OmrahStepsEnum.tawaf:
+        return appLocalizer.phaseTawaf;
+      // case OmrahStepsEnum.makam:
+      //   return appLocalizer.phaseMakam;
+      case OmrahStepsEnum.safa_and_marwa:
+        return appLocalizer.phaseSafaAndMarwa;
+      case OmrahStepsEnum.tahalol:
+        return appLocalizer.phaseTahalol;
+      case OmrahStepsEnum.finished:
         return '';
     }
   }
+
 }
