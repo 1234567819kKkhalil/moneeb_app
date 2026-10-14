@@ -1,0 +1,20 @@
+﻿# The native splash is intentionally BLANK (just the background color). The real
+# splash (logo, welcome text, loader, copyright) is SplashPage in Flutter, which
+# fades in on the same background, so there is no visible jump between two
+# different splashes. The transparent images are needed because Android 12+
+# falls back to the app icon when no icon is given.
+flutter_native_splash:
+ color: "#1B1E23"
+ color_dark: "#1B1E23"
+ image: "assets/images/splash/splash_blank.png"
+ image_dark: "assets/images/splash/splash_blank.png"
+
+ android_12:
+  color: "#1B1E23"
+  color_dark: "#1B1E23"
+  image: "assets/images/splash/splash_blank.png"
+  image_dark: "assets/images/splash/splash_blank.png"
+
+ android: true
+ ios: true
+ fullscreen: true

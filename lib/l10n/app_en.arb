@@ -1,0 +1,1598 @@
+{
+  "@-AppUpdater-": {
+    "description": "---------------- AppUpdater ----------------"
+  },
+  "updateApp": "Update App",
+  "updateAppTitle": "A new version is available. Please update now to continue using the app.",
+  "updateAppDes": "This version is no longer supported.",
+  "updateNow": "update Now",
+  "version": "Version",
+  "versionInfoNotAvailable": "Version info not available",
+  "@-Notifications-": {
+    "description": "---------------- Notifications ----------------"
+  },
+  "notifications": "Notifications",
+  "noNotifications": "No notifications",
+  "noNotificationsHint": "You have no notifications",
+  "notification": "Notification",
+  "noNotificationHint": "You have no notifications",
+  "notificationDeleted": "Notification deleted",
+  "notificationDeletedError": "Failed to delete notification",
+  "notificationDeletedSuccess": "Notification deleted successfully",
+  "notificationUpdated": "Notification updated",
+  "notificationUpdatedError": "Failed to update notification",
+  "notificationUpdatedSuccess": "Notification updated successfully",
+  "@-IMAGE_EDITOR-": {
+    "description": "---------------- IMAGE EDITOR ----------------"
+  },
+  "custom": "custom",
+  "original": "original",
+  "undo": "Undo",
+  "redo": "Redo",
+  "flip": "Flip",
+  "rotateRight": "Rotate Right",
+  "imageEditor": "Image Editor",
+  "editImage": "Edit Image",
+  "verification": "Verification",
+  "viewVerification": "View Verification",
+  "savingToGallery": "Saving your image to gallery",
+  "editingImagePleaseWait": "Editing your image, please wait..",
+  "saveToGallery": "Save to gallery",
+  "couldNotSaveImage": "Could not save the image",
+  "imageSavedToGallery": "Image saved to gallery",
+  "failedToEditImage": "Failed to edit your image",
+  "@-MediaUtils-": {
+    "description": "---------------- MediaUtils ----------------"
+  },
+  "kb": "KB",
+  "mb": "MB",
+  "gb": "GB",
+  "image": "Photo",
+  "video": "Video",
+  "audio": "Voice note",
+  "document": "Document",
+  "embedLink": "Link",
+  "file": "File",
+  "gallery": "Gallery",
+  "takePhoto": "Take Photo",
+  "takeVideo": "Take Video",
+  "chooseFromLibrary": "Choose from library",
+  "imagesGallery": "Images Gallery",
+  "chooseAFile": "Choose a file",
+  "jPGPNGExtensions": "JPG, PNG",
+  "stopped": "Stopped",
+  "paused": "Paused",
+  "recording": "Recording",
+  "preparingRecorder": "Preparing..",
+  "typeAudioTitle": "Type audio title",
+  "playbackSpeed": "Playback Speed",
+  "errorStartRecording": "Error, could not start the recording.",
+  "couldNotStopRecord": "Could not stop the record",
+  "couldNotPauseRecord": "Could not pause the recorder..",
+  "couldNotResumeRecord": "Could not resume the record..",
+  "errorPlayingVideo": "Error playing the video",
+  "mediaExceededSizeLimitSkipped": "Skipped {count} media because {count, plural, =1{it} other{they}} exceeded the size limit of {maxSize} MB",
+  "@mediaExceededSizeLimitSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "mediaExceededMaxCountLimitSkipped": "Skipped {count} media because {count, plural, =1{it} other{they}} exceeded the max count limit of {maxSize}",
+  "@mediaExceededMaxCountLimitSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "unsupportedFileType": "Unsupported file type",
+  "unSupportedMediaSkipped": "Skipped {count} media because {count, plural, =1{it is} other{they are}} not in supported formats",
+  "@unSupportedMediaSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "maximumAllowedAudio": "(maximum {count} audio)",
+  "@maximumAllowedAudio": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "maximumAllowedImages": "(maximum {count} images)",
+  "@maximumAllowedImages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "maximumAllowedVideos": "(maximum {count} video)",
+  "@maximumAllowedVideos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sizeLimitExceeded": "Size limit exceeded, max size is: {maxSize} MB",
+  "@sizeLimitExceeded": {
+    "placeholders": {
+      "maxSize": {
+        "type": "int"
+      }
+    }
+  },
+  "supportedFileTypeIs": "Supported formats are",
+  "permissionNotGranted": "Permission not granted",
+  "givePermissionsManually": "You have to give permissions manually from settings",
+  "removeImage": "Remove Image",
+  "videoSavedToGallery": "Video has been saved to the gallery",
+  "errorPickingMedia": "Error while picking your media",
+  "errorFileSize": "File Too Large",
+  "uploadCancelled": "Upload canceled",
+  "maximumSizeLimitWithSkippedError": "The maximum size is {limit} megabytes, {count, plural, =1{1 file} other{{count} files}} skipped",
+  "@maximumSizeLimitWithSkippedError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      },
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "uploadError": "Unexpected error during file upload",
+  "uploadFailedError": "Upload Failed",
+  "videoLoadingError": "Failed to load video",
+  "compressionError": "File compression failed",
+  "thumbnailError": "get video thumbnail failed",
+  "maximumAttachmentLimitError": "maximum limit is ({limit})",
+  "@maximumAttachmentLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumImagesLimitError": "maximum limit is ({limit}) images",
+  "@maximumImagesLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumVideoLimitError": "maximum limit is ({limit}) video",
+  "@maximumVideoLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumAudioLimitError": "maximum limit is ({limit}) audio",
+  "@maximumAudioLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumCountSizeLimitError": "The maximum limit for selecting is {count}, and the maximum size is {limit} megabytes",
+  "@maximumCountSizeLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      },
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumSizeLimitError": "The maximum size is {limit} megabytes",
+  "@maximumSizeLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "fileSizeError": "File is too large",
+  "fileDoesNotExist": "File does not exist",
+  "fileExceedError": "File exceed {limit}MB",
+  "@fileExceedError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "mediaPickupCanceled": "Media pickup canceled، Please try again later",
+  "couldNotDownloadFileError": "Could not download the file",
+  "fileCorruptionError": "Something went wrong with this file",
+  "emptyFileError": "Cant Upload Empty File ,Make Sure You Upload Valid File",
+  "pickPdfValidationError": "Please, Choose a valid file",
+  "couldNotOpenRecord": "Could not open the record",
+  "downloadSuccessfully": "Downloaded successfully",
+  "failedToLoadTheAudio": "Failed To Load The Audio ",
+  "failedToLoadTheVideo": "Failed To Load The Video ",
+  "mediaLimit": "Media Limit Exceeded, added ",
+  "outOf": "out of",
+  "videoLimit": "Max video upload limit is 1",
+  "pickingMedia": "Picking your media..",
+  "addImages": "Add images",
+  "@-ERRORS-": {
+    "description": "---------------- ERRORS ----------------"
+  },
+  "emptyEmailError": "Email field is required and cannot be empty.",
+  "emailFormatError": "Invalid email format. Please try again.",
+  "emailCapitalCharactersError": "Email should not contain capital characters",
+  "emailContainArabicError": "Email should not contain arabic characters",
+  "emailHasSpaceError": "Email can not have spaces",
+  "passwordDoesNotMatchError": "The password does not match with new password.",
+  "emptyPasswordError": "Password field is required and cannot be empty.",
+  "lengthPasswordError": "Password length must be at least 8",
+  "uppercaseLetterPasswordError": "Password must contain at least one uppercase letter",
+  "lowercaseLetterPasswordError": "Password must contain at least one lowercase letter",
+  "digitPasswordError": "Password must contain at least one digit",
+  "specialCharPasswordError": "Password must contain at least one special character",
+  "emptyNameError": "Name field is required and cannot be empty.",
+  "emptyFirstNameError": "Please enter first name",
+  "emptyLastNameError": "Please enter last name",
+  "nameIsRequiredError": "Name field is required and cannot be empty.",
+  "inValidNameError": "Your name must only contain letters",
+  "nameLengthError": "Name should be between 2 and 25 characters",
+  "enterMobileNumberError": "Please enter your Mobile number",
+  "otpNumberExceeded": "You have exceeded the number allowed to send the activation code. Please try again another time after",
+  "userCancelSocialLoginError": "Sign Is Canceled",
+  "failedToLoginWithFacebookError": "Failed to sign in with Facebook",
+  "failedToLoginWithTwitterError": "Failed to sign in with X",
+  "failedToLoginWithAppleError": "Failed to sign in with Apple",
+  "failedToLoginWithGoogleError": "Failed to sign in with Google",
+  "socialRegisterDataNotCompleteError": "Register Data Not Complete Make Sure Every Thing is Ok",
+  "couldNotLaunchError": "Could not launch the link",
+  "serverError": "Server error, please try again later",
+  "unexpectedError": "UnExpected error, please try again later",
+  "networkError": "no internet",
+  "hasInternetConnection": "has internet connection",
+  "noInternetConnection": "no internet connection",
+  "permissionNotGrantedError": "Permission not granted",
+  "voicePermissionError": "Could not grant voice permissions",
+  "cameraPermissionError": "Could not grant camera permissions",
+  "mediaPermissionError": "Could not grant media permissions",
+  "locationPermissionError": "Could not grant location permissions",
+  "notificationPermissionError": "Could not grant notification permissions",
+  "photoVideoPermissionError": "Could not grant photos and videos permissions",
+  "videosPermissionError": "Could not grant videos permissions",
+  "noItemFoundError": "no Item Found",
+  "noResultsFoundError": "No results found",
+  "failedToGetUserInfoError": "Failed to get user info",
+  "blockedErrorTitleError": "Access Blocked",
+  "blockedErrorDescError": "Sorry, your account has been blocked.",
+  "unAuthorizedErrorTitleError": "Unauthorized",
+  "unAuthorizedErrorDescError": "Sorry, you do not have permission to perform this operation.",
+  "invalidLinkError": "invalid link, please make sure link is valid",
+  "seemTobeOffline": "You seem to be offline!",
+  "hangWeReconnecting": "Hang tight! We're trying to reconnect",
+  "noSearchResults": "No results found for {text}",
+  "@noSearchResults": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "noSearchResultsHint": "Check the spelling and try again or search for something new",
+  "permissionRequired": "Allow {value} access in device settings",
+  "@permissionRequired": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "permissionRequiredDesc": "to use this feature, please enable {value} access in device settings",
+  "@permissionRequiredDesc": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@-AUTH-": {
+    "description": "---------------- AUTH ----------------"
+  },
+  "welcomeSplash": "Welcome",
+  "allRightsReserved": "All rights reserved © All rights reserved",
+  "quranQuote": "( And complete the Hajj and 'Umrah for Allah )",
+  "chooseGender": "Choose gender",
+  "pleaseChooseGender": "Please choose gender",
+  "quranHafiz": "Are you a Hafiz of the Holy Quran?",
+  "pleaseChooseQuranMemorization": "Please choose if you are a Hafiz of the Holy Quran",
+  "certificateNameRequired": "Certificate name is required",
+  "uploadCertificateImage": "Upload Certificate Image",
+  "bioRequired": "Biography is required",
+  "umrahCountRequired": "Number of Umrahs performed is required",
+  "enterValidNumber": "Enter a valid number",
+  "idNumberRequired": "ID number is required",
+  "pleaseUploadImage": "Please upload the image",
+  "pleaseUploadIdImage": "Please upload the ID image",
+  "providerOath": "I swear by Almighty Allah,\nTo perform Umrah or Hajj with honesty and sincerity,\nAnd to intend the work purely for the sake of Allah Almighty,\nAnd to adhere to all Sharia rulings and ethical standards.\n\nAnd I pledge:\n• To perform the rituals on behalf of the Umrah owner as requested of me without deficiency or neglect.\n• To be honest in the information, documentation, and photos sent within the application.\n• To preserve the confidentiality of the Umrah owners' data and not misuse it.\n• To respect the sanctity of the place and time, and represent the application in the best way.\n• To fear Allah in every action I take within this application.\n\nI acknowledge that any violation of the above forfeits my right to use the application, and I bear full responsibility before Allah and then before the application management.\n\"And Allah is witness over what I say.\"",
+  "@-SHARE-": {
+    "description": "---------------- SHARE ----------------"
+  },
+  "downloadApp": "Download app",
+  "shareAppTitleContent": "Experience a seamless path to all...",
+  "@-Biometric auth-": {
+    "description": "---------------- Biometric auth ----------------"
+  },
+  "biometricAuth": "Pass key",
+  "useToOpen": "Unlock with {biometric} to open your app.",
+  "@useToOpen": {
+    "placeholders": {
+      "biometric": {
+        "type": "String"
+      }
+    }
+  },
+  "on": "On",
+  "off": "Off",
+  "enabled": "enabled",
+  "disabled": "disabled",
+  "immediately": "Immediately",
+  "after10Sec": "After 10 seconds",
+  "after30Sec": "After 30 seconds",
+  "afterMinute": "After 1 minute",
+  "appLock": "App lock",
+  "enableFaceTouchId": "Enable Face ID or Touch ID to protect access to your app.",
+  "enableAppLock": "Enable app lock",
+  "openSettings": "Open setting",
+  "passkey": "Pass key",
+  "useBiometric": "Use {biometric}",
+  "@useBiometric": {
+    "placeholders": {
+      "biometric": {
+        "type": "String"
+      }
+    }
+  },
+  "faceRecognition": "Face ID",
+  "fingerprint": "Touch ID",
+  "iris": "Iris Scan",
+  "anyBiometric": "available biometric",
+  "toUseApp": "to access your app",
+  "noBiometricAvailable": "No biometric authentication available. Please use your passcode if available",
+  "biometricFailure": "Biometric authentication is not available.",
+  "@-ADDRESS-": {
+    "description": "---------------- ADDRESS ----------------"
+  },
+  "addressTitle": "Address",
+  "searchAddress": "Search for address",
+  "addAddressButtonText": "Add address",
+  "addAddress": "Add an address for easier deliveries",
+  "addAddressDes": "You can add your home address, work address, or any other address you want your orders delivered to.",
+  "addressSavedSuccessfully": "Address Saved successfully",
+  "addressDetails": "Address Details",
+  "location": "Location",
+  "additionalAddressInfo": "Additional Address information",
+  "apt": "Apt. no.",
+  "buildingName": "Building name",
+  "addressName": "Address name",
+  "floor": "Floor",
+  "street": "Street",
+  "additionalDirections": "Additional directions",
+  "addressLabel": "Address label",
+  "additionalInstructions": "Additional Instructions",
+  "pickLocation": "Pick location",
+  "findCaterersNearby": "Find caterers nearby",
+  "findCaterersNearbyDes": "Tell us where the gathering's at! We'll find delicious catering options near you.",
+  "shareLocation": "Share your location",
+  "enableLocation": "Enable location for nearby catering fun",
+  "deliveryAddress": "Delivery Address",
+  "confirmPinLocation": "Confirm pin location",
+  "confirmLocation": "Confirm location",
+  "detecting": "Detecting...",
+  "currentLocation": "Current Location",
+  "selectLocationHint": "Set Location",
+  "updateLocationTitle": "Update Location",
+  "updateLocationConfirmation": "Do you want to update your current location?",
+  "yesUpdate": "Yes, Update",
+  "enableLocationServicePrompt": "Please enable location services to detect your location",
+  "locationPermissionDeniedForeverPrompt": "Location permission denied. Please enable it from the app settings",
+  "unnamedRoad": "Unnamed road",
+  "chooseDeliveryLocation": "Choose delivery location",
+  "savedAddress": "Saved addresses",
+  "deliverToDifferentLocation": "Deliver to different location",
+  "zoomInMore": "Please zoom in more to find your exact delivery location",
+  "selectYourArea": "Select your area",
+  "shareYourLocation": "Share your location",
+  "byAllowLocation": "By allowing App to detect your location, We can show you nearby restaurants more accurately",
+  "goToSetting": "Go to setting",
+  "searchCountry": "Search country",
+  "searchArea": "Search area",
+  "searchCity": "Search city",
+  "@-DATES-": {
+    "description": "---------------- DATES ----------------"
+  },
+  "dates": "Dates",
+  "sinceDate": "Since",
+  "justNow": "Just Now",
+  "year": "{count, plural, =0{0 year} =1{1 year} other{{count} years}}",
+  "@year": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "month": "{count, plural, =0{0 month} =1{1 month} other{{count} months}}",
+  "@month": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "week": "{count, plural, =0{0 week} =1{1 week} other{{count} weeks}}",
+  "@week": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceWeek": "since {count, plural, =0{0 weeks} =1{1 week} other{{count} weeks}}",
+  "@sinceWeek": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "day": "{count, plural, =0{0 day} =1{1 day} other{{count} days}}",
+  "@day": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceDay": "since {count, plural, =0{0 days} =1{1 day} other{{count} days}}",
+  "@sinceDay": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "hour": "{count, plural, =0{0 hour} =1{1 hour} other{{count} hours}}",
+  "@hour": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceHour": "since {count, plural, =0{0 hours} =1{1 hour} other{{count} hours}}",
+  "@sinceHour": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "min": "{count, plural, =0{0 min} =1{1 min} other{{count} mins}}",
+  "@min": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceMin": "since {count, plural, =0{0 min} =1{1 min} other{{count} mins}}",
+  "@sinceMin": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "minute": "{count, plural, =0{0 minute} =1{1 minute} other{{count} minutes}}",
+  "@minute": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceMinute": "since {count, plural, =0{0 minute} =1{1 minute} other{{count} minutes}}",
+  "@sinceMinute": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "second": "{count, plural, =0{0 seconds} =1{1 second} other{{count} seconds}}",
+  "@second": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceSecond": "since {count, plural, =0{0 seconds} =1{1 second} other{{count} seconds}}",
+  "@sinceSecond": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sec": "{count, plural, =0{0 Sec} =1{1 Sec} other{{count} Secs}}",
+  "@sec": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceSec": "since {count, plural, =0{0 Sec} =1{1 Sec} other{{count} Secs}}",
+  "@sinceSec": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "h": "h",
+  "m": "m",
+  "s": "s",
+  "eveningPM": "PM",
+  "morningAM": "AM",
+  "minutes": "Minutes",
+  "hours": "Hours",
+  "days": "Days",
+  "weeks": "Weeks",
+  "months": "Months",
+  "years": "Years",
+  "@-ACTIONS-": {
+    "description": "---------------- ACTIONS ----------------"
+  },
+  "turnOn": "Turn on",
+  "later": "Later",
+  "start": "Start",
+  "share": "Share",
+  "edit": "Edit",
+  "delete": "Delete",
+  "done": "Done",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "next": "Next",
+  "skip": "Skip",
+  "change": "Change",
+  "cont": "Continue",
+  "add": "Add",
+  "accept": "Accept",
+  "save": "Save",
+  "retry": "Retry",
+  "ok": "Ok",
+  "send": "Send",
+  "back": "Back",
+  "sureYouWantToExit": "Are you sure you want to exit?",
+  "leave": "Leave",
+  "stay": "Stay",
+  "sendMedia": "Send a photo or video",
+  "sendPdf": "Upload Documents",
+  "openCamera": "Take a photo",
+  "wait": "Wait",
+  "showMore": "Show more",
+  "showLess": "Show less",
+  "reSend": "Re-send",
+  "recall": "Recall",
+  "reply": "Reply",
+  "copy": "Copy",
+  "typing": "Typing..",
+  "copyMessage": "The message has been copied",
+  "selectYour": "Select your",
+  "yes": "Yes",
+  "no": "No",
+  "verifyTextBtn": "Verify",
+  "unlinkAccount": "Unlink",
+  "linkAccount": "Link",
+  "discard": "Discard",
+  "proceed": "Proceed",
+  "close": "Close",
+  "sendCode": "Send Code",
+  "previous": "Previous",
+  "reset": "Reset",
+  "search": "Search",
+  "searchWithDots": "Search...",
+  "logOut": "Log Out",
+  "upload": "Upload",
+  "record": "Record",
+  "clear": "Clear",
+  "remove": "Remove",
+  "enable": "Enable",
+  "disable": "Disable",
+  "clickHere": "Click here",
+  "loadMore": "Load More",
+  "seeMore": "See More",
+  "book": "Book",
+  "logIn": "Log in",
+  "getStarted": "Get Started",
+  "getStartedNow": "Get Started",
+  "tryAgain": "Try again",
+  "select": "Select",
+  "apply": "Apply",
+  "refresh": "Refresh",
+  "viewMore": "Read more",
+  "more": "More",
+  "viewLess": "Read less",
+  "now": "Now",
+  "agoMinutes": "{count}m ago",
+  "agoHours": "{count}h ago",
+  "agoDays": "{count}d ago",
+  "@agoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@agoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@agoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@-HOME-": {
+    "description": "---------------- HOME ----------------"
+  },
+  "dailyApps": "Daily Apps",
+  "liveFromHaram": "Live from Al-Masjid al-Haram now",
+  "currentUmrah": "Current Umrah..",
+  "videos": "Videos",
+  "@-COMMON-": {
+    "description": "---------------- COMMON ----------------"
+  },
+  "details": "Details",
+  "changeLanguage": "Change Language",
+  "welcomeTo": "Welcome in ",
+  "welcomeGuest": "Welcome",
+  "welcome": "Welcome, {name}",
+  "@welcome": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appName": "----",
+  "mobileNumber": "Mobile number",
+  "tapToSelect": "Tap to select",
+  "country": "Country",
+  "city": "City",
+  "area": "Area",
+  "lang": "العربية",
+  "male": "Male",
+  "female": "Female",
+  "noAnswer": "Doesn't matter",
+  "success": "Success !",
+  "guest": "Guest",
+  "youAreGuestLogin": "You are a guest, login to continue.",
+  "exitDescription": "Do you want to exit an App",
+  "areYouSure": "Are you sure?",
+  "addedSuccessfully": "Added successfully",
+  "pastYourLink": "Past your link here",
+  "selectYourCountry": "Select your country",
+  "appLocked": "App Locked",
+  "searchResults": "Search results",
+  "or": " or ",
+  "pleaseReadContentCarefully": "Please read the content carefully to know more about the app",
+  "searchHere": "Search here",
+  "azkar": "Azkar",
+  "dua": "Dua",
+  "tasbeeh": "Electronic Sebha",
+  "tasbeehDescription": "Enjoy the electronic sebha experience inside the app, and record your praises with ease and accuracy",
+  "praiseNow": "Praise Now",
+  "prayerTimes": "Prayer Times",
+  "prayerTimesDescription": "Follow prayer times accurately according to your current location",
+  "time": "Time",
+  "occasions": "Occasions",
+  "read": "Read",
+  "today": "Today",
+  "somethingWentWrong": "Something went wrong",
+  "remaining": "Remaining",
+  "selectDhikr": "Select the Dhikr",
+  "resetSebha": "Reset the Sebha",
+  "tasbeehPlaceholder": "Subhan Allah wa bihamdihi",
+  "qiblah": "Qiblah Direction",
+  "qiblahDescription": "Find the Qiblah direction accurately based on your current location",
+  "qiblahNow": "Find Qiblah",
+  "enterDhikr": "Enter Dhikr",
+  "timings": "Timings",
+  "daysRemainingUntil": "{days} days remaining until {eventName}. Occasion date: {date}",
+  "daysLeft": "{days} days left",
+  "@daysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "loginRequired": "Login required",
+  "journeyStartDesc": "Your blessed journey starts here",
+  "moneebSaudiDesc": "Moneeb .. from Makkah Al-Mukarramah",
+  "story": "Story",
+  "theBest": "The Best",
+  "trustedPilgrims": "Trusted Mutamers",
+  "ritualsDocumentation": "Rituals with Authentic Documentation",
+  "umrahTracking": "Umrah Rituals Tracking",
+  "trackLocation" : "Track Location",
+  "umrahForBeneficiary": "Umrah for {beneficiary}",
+  "@umrahForBeneficiary": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "beneficiaryMartyr": "Martyr",
+  "beneficiarySick": "Sick",
+  "beneficiaryDeceased": "Deceased",
+  "beneficiaryHelpless": "Helpless",
+  "completedStatus": "Completed",
+  "hijriMonth1": "Muharram",
+  "hijriMonth2": "Safar",
+  "hijriMonth3": "Rabi Al-Awwal",
+  "hijriMonth4": "Rabi Al-Thani",
+  "hijriMonth5": "Jumada Al-Awwal",
+  "hijriMonth6": "Jumada Al-Thani",
+  "hijriMonth7": "Rajab",
+  "hijriMonth8": "Shaban",
+  "hijriMonth9": "Ramadan",
+  "hijriMonth10": "Shawwal",
+  "hijriMonth11": "Dhul Qadah",
+  "hijriMonth12": "Dhul Hijjah",
+  "inProgressStatus": "In Progress",
+  "fajr": "Fajr",
+  "fajrPrayer": "Fajr Prayer",
+  "sunrise": "Sunrise",
+  "dhuhr": "Dhuhr",
+  "dhuhrPrayer": "Dhuhr Prayer",
+  "asr": "Asr",
+  "asrPrayer": "Asr Prayer",
+  "maghrib": "Maghrib",
+  "maghribPrayer": "Maghrib Prayer",
+  "isha": "Isha",
+  "ishaPrayer": "Isha Prayer",
+  "prayerTimeAlert": "It's time for {prayerName}",
+  "@prayerTimeAlert": {
+    "placeholders": {
+      "prayerName": {
+        "type": "String"
+      }
+    }
+  },
+  "markAllAsRead": "Mark all as read",
+  "quranVerse": "( And complete the Hajj and 'umrah for Allah )",
+  "ongoingOmrah": "Ongoing Umrah...",
+  "reviewDetails": "Review Details",
+  "mutamerRating": "Mutamer Rating",
+  "rateMutamerDesc": "Please rate the mutamer based on your experience",
+  "userRoleName": "User",
+  "noComment": "No comment",
+  "selectGender": "Select Gender",
+  "pleaseSelectGender": "Please select gender",
+  "notReachedStatus": "Not Reached",
+  "ihram": "Ihram",
+  "miqat": "Miqat",
+  "mekatInstruction1Title": "Bathing and Perfuming",
+  "mekatInstruction1Desc": "It is recommended for a Muslim to bathe and apply perfume before Ihram.\n\n• Bathing is a confirmed Sunnah before Ihram\n• A man applies perfume to his body (not to the Ihram clothes)\n• A woman avoids perfume if she will intermingle with men\n\nThe purpose of this is:\n• Cleanliness\n• Preparing to enter the ritual",
+  "mekatInstruction2Title": "Wearing Ihram Clothes",
+  "mekatInstruction2Desc": "How to wear Ihram clothes:\n\nFor men:\n• Wear an Izar and a Rida (two unsewn pieces of cloth)\n• Do not cover the head\n• Wear sandals (preferably open)\n\nFor women:\n• Wear normal modest clothing (without adornment)\n• No specific color is required\n• Do not wear the Niqab or gloves\n\nNotes:\n• Clothes must be clean\n• Use of perfume is prohibited after Ihram",
+  "mekatInstruction3Title": "Intention",
+  "mekatInstruction3Desc": "Intention is the entering into the ritual.\n\n• Its place is the heart (verbalization is not required)\n• It is recommended to say:\n\"Labbayk Allahumma Umrah\"\n\nNotes:\n• Intention should be made upon reaching the Miqat\n• Ihram is not valid without intention",
+  "mekatInstruction4Title": "Miqat",
+  "mekatInstruction4Desc": "The Miqat is the place from which Ihram must be assumed.\n\n• It is not permissible to pass it without Ihram for those intending Umrah\n\nFamous Miqats:\n• Dhu'l-Hulayfah (People of Madinah)\n• Al-Juhfah (People of Sham)\n• Qarn al-Manazil (People of Najd)\n• Yalamlam (People of Yemen)\n• Dhat Irq (People of Iraq)\n\nNotes:\n• Those within the Miqat boundaries assume Ihram from their place\n• Those in an airplane assume Ihram when parallel to the Miqat",
+  "mekatInstruction5Title": "Talbiyah",
+  "mekatInstruction5Desc": "The pilgrim begins the Talbiyah immediately after assuming Ihram.\n\nText of the Talbiyah:\n\"Labbayk Allahumma Umrah, Labbayka la sharika laka Labbayk, Innal-hamda wan-ni'mata laka wal-mulk, la sharika lak\"\n\nWhen to say it:\n• Immediately after the intention\n• Repeated during the way to Makkah\n\nNotes:\n• A man raises his voice with it\n• A woman says it in a low voice\n• It continues until the start of Tawaf",
+  "tawaf": "Tawaf",
+  "tawafInstruction1Title": "Entering Al-Masjid Al-Haram",
+  "tawafInstruction1Desc": "When entering Al-Masjid Al-Haram:\n\n• Enter with the right foot\n• Say: \"Bismillah, Allahumma salli 'ala Muhammad\"\n• And say: \"Allahumma-ftah li abwaba rahmatik\"\n\nNotes:\n• Enter with tranquility and calmness\n• Do not crowd people\n• Recall the greatness of the place",
+  "tawafInstruction2Title": "At the Black Stone",
+  "tawafInstruction2Desc": "Upon reaching the Black Stone:\n\n• If possible: Touch it with your right hand and kiss it\n• If you cannot: Touch it with your hand and kiss your hand\n• If you cannot: Point to it with your hand and say \"Allahu Akbar\"\n\nNotes:\n• Do not harm others by crowding\n• Pointing is sufficient during crowding",
+  "tawafInstruction3Title": "Tawaf around the Kaaba",
+  "tawafInstruction3Desc": "How to perform Tawaf:\n\n• Keep the Kaaba to your left\n• Start from the Black Stone\n• Perform 7 complete rounds\n\nNotes:\n• Each round starts and ends at the Black Stone\n• It is recommended to hasten slightly (Raml) for men in the first 3 rounds\n• Normal walking in the remaining rounds",
+  "tawafInstruction4Title": "Remembrance and Supplication during Tawaf",
+  "tawafInstruction4Desc": "During Tawaf:\n\n• Increase remembrance and supplication\n• Read what is easy of the Quran\n\nIt is recommended between the Yemeni Corner and the Black Stone:\n\"Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar\"\n\nNotes:\n• There is no specific supplication for each round\n• Supplicate for whatever you wish",
+  "tawafInstruction5Title": "Praying two Raka'ahs after Tawaf",
+  "tawafInstruction5Desc": "After finishing Tawaf:\n\n• Pray two Raka'ahs behind Maqam Ibrahim if possible\n• If not possible, pray anywhere in the Masjid\n\nIn the two Raka'ahs:\n• Read Al-Fatihah\n• Preferably read:\n  - Al-Kafirun in the first\n  - Al-Ikhlas in the second\n\nNotes:\n• Do not crowd people at the Maqam",
+  "makamInstruction1Title": "Heading to Maqam Ibrahim",
+  "makamInstruction1Desc": "After finishing Tawaf:\n\n• Head to Maqam Ibrahim if possible\n• Place the Maqam between yourself and the Kaaba\n\nAllah Almighty said:\n\"And take, [O believers], from the standing place of Abraham a place of prayer\"\n\nNotes:\n• It is not necessary to stand directly next to the Maqam\n• You can pray anywhere inside the Mosque",
+  "makamInstruction2Title": "Praying two Rak'ahs",
+  "makamInstruction2Desc": "Pray two Rak'ahs after Tawaf:\n\n• The first Rak'ah:\n  - Al-Fatiha\n  - Surah Al-Kafirun (recommended)\n\n• The second Rak'ah:\n  - Al-Fatiha\n  - Surah Al-Ikhlas (recommended)\n\nNotes:\n• Prayer is a confirmed Sunnah after Tawaf\n• Do not crowd people for the sake of praying at the Maqam",
+  "makamInstruction3Title": "Prayer Place",
+  "makamInstruction3Desc": "Prayer Place:\n\n• Best: Behind Maqam Ibrahim\n• If not possible due to crowding:\n  - Pray anywhere inside the Grand Mosque\n\nNotes:\n• Avoid extreme crowding\n• Reverence is better than proximity",
+  "makamInstruction4Title": "After Prayer",
+  "makamInstruction4Desc": "After finishing the two Rak'ahs:\n\n• Drink from Zamzam water if possible\n• Supplicate to Allah as you wish\n• Prepare to go for Sa'i between Safa and Marwa\n\nNotes:\n• Zamzam water is Sunnah, not obligatory\n• It is recommended to supplicate a lot",
+  "pleaseCompleteInstructions": "Please complete all instructions to proceed",
+  "pleaseReadInstructionsCarefully": "Please read the instructions carefully to perform Tawaf correctly",
+  "pleaseVerifyMapFirst": "Please complete map verification first",
+  "prayerBehindMakam": "Prayer behind the Station of Ibrahim",
+  "makamIbrahim": "Maqam Ibrahim",
+  "sai": "Sa'i between Safa and Marwa",
+  "safaMarwaInstruction1Title": "Heading to Safa",
+  "safaMarwaInstruction1Desc": "After finishing Tawaf and praying two Raka'ahs:\n\n• Head to Safa Hill to start Sa'i\n• When approaching, read:\n\"Innas-Safa wal-Marwata min sha'a'irillah\"\n\nNotes:\n• This verse is said once at the beginning of Sa'i",
+  "safaMarwaInstruction2Title": "Standing on Safa",
+  "safaMarwaInstruction2Desc": "Upon ascending Safa Hill:\n\n• Face the Kaaba if possible\n• Raise your hands and supplicate to Allah\n\nIt is recommended to say:\n\"Allahu Akbar, Allahu Akbar, Allahu Akbar\nLa ilaha illallahu wahdahu la sharika lah...\"\n\nNotes:\n• Repeat the remembrance and supplication 3 times\n• Supplicate for whatever good you wish of this world and the hereafter",
+  "safaMarwaInstruction3Title": "Sa'i between Safa and Marwa",
+  "safaMarwaInstruction3Desc": "Start Sa'i from Safa to Marwa:\n\n• Set your direction toward Marwa\n• At the two green markers:\n  - Men hasten (light jogging)\n  - Women walk normally\n\nNotes:\n• The rest of the distance is normal walking\n• Increase remembrance and supplication",
+  "safaMarwaInstruction4Title": "Number of Rounds",
+  "safaMarwaInstruction4Desc": "Number of Sa'i rounds:\n\n• 7 complete rounds\n\nThe method:\n• From Safa to Marwa = round 1\n• From Marwa to Safa = round 2\n• And so on until you finish at Marwa\n\nNotes:\n• Start from Safa\n• End at Marwa",
+  "safaMarwaInstruction5Title": "Supplication during Sa'i",
+  "safaMarwaInstruction5Desc": "During Sa'i:\n\n• Increase supplication and remembrance\n• Read what is easy of the Quran\n\nNotes:\n• There is no specific supplication for each round\n• Supplicate for whatever you love",
+  "safaMarwaInstruction6Title": "After finishing Sa'i",
+  "safaMarwaInstruction6Desc": "After completing 7 rounds:\n\n• You have finished Sa'i\n• Prepare for shaving or cutting hair\n\nNotes:\n• Sa'i is a pillar of Umrah\n• Umrah is not valid without it",
+  "saiMinimized": "Sa'i",
+  "tahalol": "Tahallull",
+  "shaving": "Shaving",
+  "finishedUmrah": "Umrah Finished",
+  "umrahTrackingFinishedStep": "Finished",
+  "quranQuoteHome": "Who feared the Most Merciful in the unseen and came with a heart returning [in repentance].",
+  "enterRequiredFields": "Enter the required fields",
+  "forWhomOmra": "For whom is the Umrah?",
+  "beneficiaryCondition": "Beneficiary condition",
+  "beneficiaryGenderLabel": "Beneficiary gender",
+  "requesterName": "Requester",
+  "pleaseSelectOmraType": "Please select the Umrah type",
+  "beneficiaryNameHint": "Beneficiary Name",
+  "pleaseEnterBeneficiaryName": "Please enter the beneficiary name",
+  "uploadImage": "Upload Image",
+  "deleteImage": "Delete Image",
+  "pleaseUploadBeneficiaryImage": "Please upload the beneficiary image",
+  "writeYourNotes": "Write your notes",
+  "requestDate": "Request Date",
+  "pleaseSelectRequestDate": "Please select the request date",
+  "assignUmrahProvider": "Assign Umrah Provider",
+  "errorOccurred": "An error occurred",
+  "submitOrderErrorDesc": "Make sure to enter all fields correctly and try again",
+  "orderSubmittedSuccessfully": "Order submitted successfully",
+  "continueText": "Continue",
+  "confirmText": "Confirm",
+  "pilgrims": "Pilgrims",
+  "martyr": "Martyr",
+  "sick": "Sick",
+  "deceased": "Deceased",
+  "helpless": "Helpless",
+  "omra": "Umrah",
+  "sendRequest": "Send Request",
+  "shareProviderProfile": "Meet {name} (@{username}) - A verified Umrah provider on Moneeb 🕋\n\nMoneeb is a platform specialized in proxy Umrah, allowing users to request Umrah on behalf of the sick, the elderly, the deceased, and martyrs through verified and accredited Umrah providers approved by the app administration.\n\nThe app provides a reliable and transparent experience, enabling the requester to follow all stages of Umrah execution step by step, with documentation for each stage through photos, videos, and live location during execution.\n\nMoneeb... A documented and transparent experience for proxy Umrah with full confidence and peace of mind.",
+  "@shareProviderProfile": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "username": { "type": "String" }
+    }
+  },
+  "repeatTheseAzkarWithHumilityAndSincerityToGod": "Repeat these azkar and preserve them with humility and pure intention for God",
+  "toBeSaidAtLeast": "To be said {count} times at least",
+  "@toBeSaidAtLeast": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@-ORDERS-": {
+    "description": "---------------- ORDERS ----------------"
+  },
+  "underReview": "Under Review",
+  "profileChangesUnderReview": "Your Request is Under Review",
+  "profileChangesUnderReviewDescription": "Your changes have been submitted successfully and are now under review by the administration.\nYou will be notified once the changes are approved or rejected.",
+  "umrahRequestAccepted": "Umrah request accepted",
+  "umrahRequestRejected": "Umrah request rejected",
+  "orderDetails": "Details",
+  "umrahFor": "Umrah for {type}",
+  "serialNumber": "Serial Number",
+  "beneficiaryImage": "Beneficiary Image",
+  "notes": "Notes",
+  "pilgrimName": "Pilgrim Name",
+  "pilgrimImage": "Pilgrim Image",
+  "autoAssignPilgrim": "Automatically assign pilgrim",
+  "@-WALKTHROUGH-": {
+    "description": "---------------- WALKTHROUGH ----------------"
+  },
+  "firstPageTitleForUser": "--",
+  "firstPageDescriptionForUser": "----",
+  "secondPageTitleForUser": "--",
+  "secondPageDescriptionForUser": "----",
+  "thirdPageTitleForUser": "--",
+  "thirdPageDescriptionForUser": "----",
+  "firstPageTitle": "--",
+  "firstPageDescription": "----",
+  "secondPageTitle": "--",
+  "secondPageDescription": "----",
+  "thirdPageTitle": "--",
+  "thirdPageDescription": "----",
+  "@-MENU-": {
+    "description": "---------------- MENU ----------------"
+  },
+  "menu": "Menu",
+  "light": "Light",
+  "dark": "Dark",
+  "useSystemSetting": "Use System Setting",
+  "@-CHAT-": {
+    "description": "-----------------------chat-----------------"
+  },
+  "deleting": "Deleting",
+  "deleteChat": "Delete Chat",
+  "areYouSureYouWantToDeleteThisChat": "Are you sure you want to delete this chat?",
+  "chatDeletedSuccessfully": "Chat Deleted Successfully",
+  "contactToExpert": "Contact the expert",
+  "chatListTitle": "Messages",
+  "youSent": "You sent",
+  "sent": "sent",
+  "clearChat": "Clear chat",
+  "clearChatTitle": "Clear chat !",
+  "muteNotification": "Mute Notification",
+  "viewProfile": "View {firstName} profile",
+  "@viewProfile": {
+    "placeholders": {
+      "firstName": {
+        "type": "String"
+      }
+    }
+  },
+  "clearChatDescription": "Are you sure you want to clear chat with  {chatUserName}? if you confirm that, you cant restore messages again",
+  "@clearChatDescription": {
+    "placeholders": {
+      "chatUserName": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteChatDescription": "Are you sure you want to delete chat with {chatUserName}? If you confirm, you can't restore the chat.",
+  "@deleteChatDescription": {
+    "placeholders": {
+      "chatUserName": {
+        "type": "String"
+      }
+    }
+  },
+  "caption": "Caption",
+  "clearChatWithMessage": "Clear chat messages from your side",
+  "chatCardName": "chat",
+  "messageCardName": "message",
+  "anOffer": "an offer",
+  "you": "You",
+  "sendTo": "Send to",
+  "sendFailed": "Send failed",
+  "deletedMessage": "Deleted message",
+  "preparingChatRoom": "Preparing chat room ...",
+  "messageCopied": "Message copied!",
+  "unMute": "Un mute",
+  "message": "Message",
+  "clearChatSuccess": "Chat cleared successfully",
+  "chatMutedSuccessfully": "Chat muted successfully",
+  "chatUnMutedSuccessfully": "Chat un muted successfully",
+  "offline": "offline",
+  "online": "online",
+  "isAvailable": "Available",
+  "isNotAvailable": "Not Available",
+  "offlineVisibilityWarning": "When you are not available, you will not appear to Umrah requesters.",
+  "activeNow": "active now",
+  "activeSince": "active since",
+  "minuteSince": "minute",
+  "hourSince": "hour",
+  "exitWarning": "Are you sure you want to exit?",
+  "exitWarningDescription": "if you leave this record will be deleted",
+  "couldNotFindTheReply": "Could not find the reply, the message maybe has been deleted",
+  "youHavenTAnyMessage": "You haven’t any message yet, Start chatting",
+  "youHavenTAnyMessageYet": "You haven’t any message yet",
+  "deleteText": "Delete",
+  "deleteMessage": "Delete Message",
+  "areYouSureYouWantToDeleteThisMessage": "Are you sure you want to delete this message",
+  "youBlockedDec": "You have blocked this user, you can not communicate with each other ",
+  "language_settings": "Language Settings",
+  "change_password_settings": "Change Password",
+  "orders_settings": "Orders Settings",
+  "my_rate_settings": "My Ratings",
+  "verify_moneeb_settings": "Verify Moneeb",
+  "policy_settings": "Privacy Policy",
+  "terms_settings": "Terms & Conditions",
+  "about_settings": "About Moneeb",
+  "who_moneeb_settings": "Who is Moneeb?",
+  "tazkiyah_settings": "Tazkiyah",
+  "logout_settings": "Logout",
+  "delete_account_settings": "Delete Account",
+  "delete_account_dialog_title": "Delete Account",
+  "delete_account_dialog_desc": "This action cannot be undone. Your account will be deactivated immediately and your request for final deletion will be submitted to the administration.",
+  "delete_account_confirm_title": "Confirm Final Deletion",
+  "delete_account_confirm_desc": "Are you absolutely sure? You will not be able to access your account after this action.",
+  "delete_account_success": "Account deletion request submitted successfully",
+  "account_will_be_deleted": "Your request will be reviewed and the account will be permanently deleted",
+  "i_understand_delete_my_account": "I understand and agree to permanently and completely delete my account",
+  "trusted_platform_badge": "Moneeb .. a trusted Saudi platform with a commercial registration",
+  "follow_us": "Follow us on our page!",
+  "social_media_description": "We are happy to have you with us! Follow us for more updates.",
+  "app_version": "App Version",
+  "select_language": "Select Language",
+  "select_your_language": "Select your language",
+  "homeNav": "Home",
+  "ordersNav": "Orders",
+  "requestOmraNav": "Request",
+  "zadNav": "Zad",
+  "settingsNav": "Settings",
+  "details": "Details",
+  "stories": "Stories",
+  "no_stories_available": "No stories available at the moment",
+  "banners": "Banners",
+  "no_banners_available": "No banners available",
+  "forgot_password": "Forgot Password",
+  "email": "Email",
+  "registered_email": "Registered Email",
+  "forgot_password_description": "Enter your email to receive a verification code and reset your password.",
+  "please_enter_email": "Please enter your email",
+  "continue_label": "Continue",
+  "verified_successfully": "Verified successfully",
+  "code_resent_successfully": "Code resent successfully",
+  "enter_verification_code": "Enter verification code",
+  "verify": "Verify",
+  "didnt_receive_code": "Didn't receive a code? ",
+  "resend": "Resend",
+  "password_updated_successfully": "Password updated successfully",
+  "reset_password": "Reset Password",
+  "set_new_password": "Set New Password",
+  "reset_password_instruction": "Please enter a strong new password.",
+  "new_password": "New Password",
+  "password_too_short": "Password too short (min 8 characters)",
+  "confirm_password": "Confirm Password",
+  "passwords_do_not_match": "Passwords do not match",
+  "update_password": "Update Password",
+  "profile": "Profile",
+  "yourRating": "Your Rating",
+  "hisRating": "His Rating",
+  "myRating": "My Rating",
+  "myUmrahsExecuted": "My Executed Umrahs",
+  "hisUmrahsExecuted": "His Executed Umrahs",
+  "providerImage": "Provider Image",
+  "yourProviderImage": "Your Provider Image",
+  "providerVideo": "Provider Video",
+  "yourProviderVideo": "Your Provider Video",
+  "reviews": "Reviews",
+  "noReviewsYet": "No reviews yet",
+  "loadingReview": "Loading review...",
+  "accountInfo": "Account Info",
+  "name": "Name",
+  "enterName": "Enter Name",
+  "enterEmail": "Enter Email",
+  "phone": "Phone Number",
+  "enterPhone": "Enter Phone Number",
+  "selectCountry": "Select Country",
+  "gender": "Gender",
+  "providerInfo": "Provider Info",
+  "idNumber": "ID / National ID",
+  "enterIdNumber": "Enter ID or National ID",
+  "previousUmrahCount": "Previous Umrah Count",
+  "enterPreviousUmrahCount": "Enter how many Umrahs you performed",
+  "bio": "Bio",
+  "bioHint": "Write a short bio that appears to pilgrims",
+  "isQuranHafiz": "Quran Hafiz",
+  "updatedSuccessfully": "Updated successfully",
+  "saveChanges": "Save Changes",
+  "editProfile": "Edit Profile",
+  "omrahStepMeqat": "Meqat",
+  "omrahStepTawaf": "Tawaf",
+  "omrahStepPrayingBehindMakam": "Praying behind Makam Ibrahim",
+  "omrahStepMakamIbrahim": "Makam Ibrahim",
+  "omrahStepSafaAndMarwa": "Safa and Marwa",
+  "omrahStepSafaAndMarwaShort": "Safa and Marwa",
+  "omrahStepTahalol": "Tahalol",
+  "omrahStepFinishOmrah": "Finish Umrah",
+  "finish": "Finish",
+  "phaseOne": "Phase One",
+  "phaseTwo": "Phase Two",
+  "tawafInstructions": "Tawaf Instructions",
+  "documentationTitle": "Documentation",
+  "tawafVerifyInsideHaram": "Verify you are inside the Haram",
+  "tawafVerifyDuaa": "Verify video of Duaa for the Umrah owner",
+  "phaseThree": "Phase Three",
+  "makamInstructions": "Makam Ibrahim Instructions",
+  "makamInstructionDesc": "Please read the instructions carefully to properly perform the Makam Ibrahim prayer",
+  "makamVerifyFirst": "verifying the Makam Ibrahim prayer",
+  "makamVerifyImage": "Picture of the place from behind or the glass dome of the Makam.",
+  "phaseFour": "Phase Four",
+  "safaMarwaInstructions": "Safa and Marwa",
+  "safaMarwaInstructionDesc": "Please read instructions carefully to properly perform Safa and Marwa",
+  "safaMarwaVerifyFirst": "Verify video while standing on Mount Safa",
+  "safaMarwaVerifyMap": "Map tracking for seven rounds",
+  "safaMarwaVerifyInsideMasaa": "Verify you are inside the Mas'a between Safa and Marwa",
+  "mekatInstructions": "Ihram Instructions",
+  "mekatInstructionDesc": "Please read instructions carefully to properly perform Ihram",
+  "mekatVerifyFirst": "First documentation via Google Maps to determine Meqat",
+  "mekatVerifySecond": "Second documentation via Video",
+  "phaseFive": "Phase Five",
+  "tahalolVideo": "Video",
+  "tahalolVerifyVideo": "Please select a video or image for Tahalol",
+  "tahalolVerifyTitle": "Tahalol Documentation",
+  "tahalolVerifyImageDesc": "Picture for Tahalol",
+  "tahalolVerifyVideoDesc": "Video for Tahalol",
+  "omrahJourneyFinishPrefix": "End of journey ",
+  "omrahRituals": "Umrah Rituals",
+  "providerStillDoingStep": "The provider is still performing this step",
+  "trackProviderOnMap": "Track their location on the map",
+  "videoSavedSuccessfully": "Video saved to gallery successfully",
+  "videoSaveFailed": "Failed to save video",
+  "omrahVideoTitle": "Umrah Video",
+  "videoShareFailed": "Failed to share video",
+  "waitProviderLocation": "Please wait a moment until the Mutamer sends their location",
+  "loadingRoute": "Loading the route...",
+  "noRouteRecorded": "No route was recorded for this Umrah",
+  "grantPermission": "Grant Permission",
+  "readGuideConfirm": "Please read the guide content and commit, click \"Confirm\"",
+  "verifyVideoInsideMosque": "Verify video when entering the Grand Mosque",
+  "prayDuaaTakbeer": "Do not forget the Takbeer and the supplication for the person you intended this Umrah for",
+  "imageTranslate": "Image",
+  "verifyImageTitle": "Verify Image",
+  "pickFromGallery": "Pick from gallery",
+  "omrahVerifyStep": "Verify {stepName}",
+  "@omrahVerifyStep": {
+    "description": "Verification step title",
+    "placeholders": {
+      "stepName": {
+        "type": "String"
+      }
+    }
+  },
+  "notReachedYet": "Not reached",
+  "executedSuccessfully": "Executed",
+  "inProgress": "In progress",
+  "videoProofUploadedSuccessfully": "Video proof uploaded successfully",
+  "ritualsList": "Rituals",
+  "finishOmrah": "Finish Umrah",
+  "didYouFinishOmrah": "Did you finish the Umrah?",
+  "yesIFinishedOmrah": "Yes, I performed the Umrah",
+  "noNotYet": "No, not yet",
+  "ordersHeader": "Orders",
+  "noOrdersMessage": "There are no orders",
+  "orderStatusWaiting": "Waiting",
+  "orderStatusAcceptReject": "Accept / Reject",
+  "orderStatusApproved": "Approved",
+  "orderStatusRejected": "Rejected",
+  "orderStatusExecuting": "Executing",
+  "orderStatusCompleted": "Completed",
+  "orderStatusCanceled": "Canceled",
+  "orderStatusUnderReview": "Under Review",
+  "orderStatusAssigned": "Assigned",
+  "orderStatusAccepted": "Accepted",
+  "orderStatusRefused": "Refused",
+  "orderStatusCompletedFemale": "Completed",
+  "orderStatusCanceledFemale": "Canceled",
+  "cancelOrderBtn": "Cancel Order",
+  "rejectBtn": "Reject",
+  "omrahForBeneficiary": "Umrah for {name}",
+  "@omrahForBeneficiary": {
+    "description": "Umrah for beneficiary message",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "orderNumber": "Order Number",
+  "continueOmrah": "Continue Umrah",
+  "viewOmrah": "View Umrah",
+  "orderCanceledSuccess": "Order cancelled successfully",
+  "mapTitle": "The Map",
+  "findNearestMeqat": "Find the Nearest Meqat",
+  "verifyYourLocation": "Verify your location",
+  "yesAuth": "Yes",
+  "noAuth": "No",
+  "someParts": "Some Parts",
+  "emailHint": "Email Address",
+  "createAccount": "Create Account",
+  "mutamerName": "Mutamer Name",
+  "mobileNumberHint": "Mobile Number",
+  "countryHint": "Country",
+  "searchHint": "Search",
+  "passwordHint": "Password",
+  "confirmPasswordHint": "Confirm Password",
+  "pleaseConfirmPassword": "Please confirm password",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "registerBtn": "Register",
+  "welcomeAuth": "Welcome",
+  "loginToViewOrdersDesc": "Log in to view Umrah orders and perform Umrah for them with confidence and safety.",
+  "orAuth": "Or",
+  "haveAccount": "Have an account?",
+  "dontHaveAccount": "Don't have an account?",
+  "loginBtn": "Login",
+  "pleaseSelectType": "Please select a type",
+  "nameHint": "Name",
+  "chooseType": "Choose type",
+  "nextAuth": "Next",
+  "loginToViewMutamersDesc": "Log in to view Mutamers and request an Umrah",
+  "createAccountAlt": "Create Account",
+  "welcomeToMoneeb": "Welcome to Moneeb",
+  "omrahForYouOrLovedOne": "Umrah for you or someone you love... to the House of God",
+  "docTrackComply": "Documentation • Tracking • Compliance",
+  "continueBtn": "Continue",
+  "continueAsGuest": "Continue as Guest",
+  "chooseAccountType": "Choose your account type",
+  "selectServiceToContinue": "Select the desired service to continue the registration process",
+  "requestOmrahTitle": "Request Umrah",
+  "providerServiceTitle": "Provider Service",
+  "startBtnAuth": "Start",
+  "completeProfileTitle": "Complete Profile",
+  "logoutString": "Logout",
+  "doYouWantToLogout": "Do you want to logout?",
+  "cancelString": "Cancel",
+  "createMutamerProfile": "Create Mutamer Profile",
+  "enterDataToCompleteProfile": "Enter the following data to complete setting up your account",
+  "uploadImageTitle": "Upload Image",
+  "yourBioHint": "Your Biography",
+  "timesPerformedOmrah": "Number of times you performed Umrah",
+  "uploadIdImage": "Upload ID Image",
+  "idNumberHint": "ID Number",
+  "continueAuth": "Continue",
+  "oneStepLeft": "One step left",
+  "uploadTrustedCertificates": "Upload some reliable certificates",
+  "certificateName": "Certificate Name",
+  "backBtn": "Back",
+  "finishBtnAuth": "Finish",
+  "kasamTitle": "The Oath",
+  "agreeAndPledge": "I agree and pledge to the above",
+  "iSwearThat": "I swear to that",
+  "thankYouFor": "Thank you for ",
+  "creatingYourAccount": "creating your account",
+  "orderReceivedSuccessfully": "Your request has been received successfully,\nand it will be reviewed by the app administration shortly.",
+  "returnToHome": "Return to Home",
+  "loginTitleBtn": "Login",
+  "forgotPassword": "Forgot Password?",
+  "tazkiyahSuccess": "Tazkiyah (Recommendation) added successfully",
+  "tazkiyahAlreadySubmitted": "You have already submitted a recommendation for this person",
+  "noTazkiyahsYet": "You haven't made any recommendations yet",
+  "previousTazkiyahs": "Previous Recommendations",
+  "tazkiyahTitle": "Recommendation",
+  "tazkiyahDesc": "We recommend this person and testify to their honesty, good manners, and commitment, and they are trustworthy if God wills.",
+  "changeTazkiyah": "Change",
+  "tazkiyahReasons": "Reasons for recommendation",
+  "pleaseEnterTazkiyahReason": "Please enter the reason for recommendation",
+  "oathText": "I testify, based on my personal knowledge of the applicant, that I know him to be honest and of good conduct, and that I consider him fit to bear the responsibility of performing Umrah on behalf of others and to comply with the documentation requirements approved by the Moneeb platform. I acknowledge that this statement is based on genuine knowledge and is not made in exchange for any financial benefit or personal interest.\n\nStrengthen your application with a Tazkiyah\nApproved Moneeb performers who know you personally can vouch for your eligibility and trustworthiness.\nTazkiyahs help the Moneeb team assess your application, but they do not mean automatic acceptance; every application is reviewed and verified according to the platform's criteria.",
+  "reviewSentSuccessfully": "Review sent successfully",
+  "evaluateOmrah": "Rate Umrah",
+  "addYourCommentHere": "Add your comment here...",
+  "confirmEvaluation": "Confirm Evaluation",
+  "omrahCompletedSuccessfully": "Umrah completed successfully",
+  "omrahWord": "Umrah",
+  "afterSpiritualJourneyDesc": "After this deep spiritual journey, we hope your heart is clearer, and may you find blessing and mercy in every step you took in Makkah. May Allah accept from you and reward you well",
+  "locationNotValidForMiqat": "Location not valid for miqat",
+  "locationNotValidForTawaf": "Location not valid for tawaf",
+  "locationNotValidForSai": "Location not valid for Sa'i",
+  "locationProofed": "Location proofed",
+  "grantLocationPermissionPlease": "Please grant location permission",
+  "grantLocationDesc": "Please grant location permission so the requester can track the Umrah",
+  "noVideoFound": "No video found",
+  "videoSavedToGallerySuccess": "The video has been saved to the gallery successfully",
+  "failedToSaveVideo": "Failed to save the video",
+  "omrahVideoUrlShare": "Umrah Video",
+  "failedToShareVideo": "Failed to share video",
+  "imageSavedToGallerySuccess": "The image has been saved to the gallery successfully",
+  "failedToSaveImage": "Failed to save the image",
+  "omrahImageUrlShare": "Umrah Image",
+  "failedToShareImage": "Failed to share image",
+  "proofAlreadySubmitted": "You already submitted your proof",
+  "omrahConclusion": "Conclusion",
+  "endOfJourney": "End of the ",
+  "omrahCompletionConfirmed": "The pilgrim confirmed completing the Umrah",
+  "omrahCompletionConfirmedFor": "The pilgrim confirmed completing the Umrah on behalf of",
+  "omrahAcceptedSupplication": "May Allah accept from us and from you all righteous deeds",
+  "evaluate": "Rate",
+  "omrahRequestReassignHintForUser" : "If the provider did not accept your Umrah request within 12 hours, it will be automatically reassigned to another provider.",
+  "omrahRequestReassignHintForProvider" : "Please accept the requests within 12 hours, otherwise it will be reassigned to another provider.",
+  "meeqatVideoDocumentation": "Miqat Video Documentation",
+  "tawafVideoDocumentation": "Documentation of the start of the Tawaf",
+  "saiVideoDocumentation": "Video documentation of the Sai stage",
+  "ibrahimMakamPrayerVideo": "Ibrahim Makam Prayer Video",
+  "tahalulVideoDocumentation": "Tahalul Video Documentation",
+  "stepDocumentedSuccessfully": "Step Documented Successfully",
+  "nextStepIs": "The next step is {nextStep}",
+  "@nextStepIs": {
+    "placeholders": {
+      "nextStep": {
+        "type": "String"
+      }
+    }
+  },
+  "nextStep": "Next Step",
+  "back": "Back",
+  "video": "Video",
+  "tapToCaptureImage": "Tap to capture image",
+  "cantUploadEmptyFile": "Can't upload empty file, make sure you upload a valid file",
+  "imageCompressFailed": "Image compress failed",
+  "invalidPhoneNumber": "Invalid Phone number",
+  "sharedPost": "Shared post",
+  "couldNotDownloadFile": "Could not download the file",
+  "couldNotFetchLocation": "Could not fetch the location",
+  "imageProofUploadedSuccessfully": "Image proof uploaded successfully",
+  "emailOrPhoneHint": "Email or Phone Number",
+  "emptyEmailOrPhoneError": "Please enter your email or phone number.",
+  "invalidSaudiPhoneError": "Invalid phone number. Must start with 05 or 5 and be 9 or 10 digits.",
+  "invalidSaudiPhonePrefixError": "Phone number must start with 05 or 5",
+  "saudiPhoneNineDigitsError": "Phone number must be 9 digits",
+  "saudiPhoneTenDigitsError": "Phone number must be 10 digits",
+  "emailOrPhoneFieldError": "Please enter a valid email or phone number.",
+  "homeLive":"Live Streams",
+  "@-OtpAuth-": {
+    "description": "---------------- OTP Auth ----------------"
+  },
+  "emailTabLabel": "Email",
+  "phoneTabLabel": "Phone",
+  "loginWithOtpDesc": "Enter your email or phone number to receive a verification code.",
+  "registerAsServiceProvider": "Register as a Service Provider",
+  "chooseVerificationMethod": "Choose a verification method",
+  "chooseVerificationMethodDesc": "Select how you'd like to receive your code.",
+  "otpChannelWhatsapp": "WhatsApp",
+  "otpChannelSms": "SMS",
+  "otpChannelCall": "Phone call",
+  "otpChannelEmail": "Email",
+  "verificationTitle": "Verification",
+  "codeSentTo": "We sent a verification code to",
+  "changeVerificationMethod": "Change verification method",
+  "providerIdentityDesc": "Verify your email or phone to register as a service provider.",
+  "passwordOptionalHint": "Password",
+  "providerNotFound": "No provider found with these details",
+  "searchByEmailOrPhone": "Search for the provider by email or phone number",
+  "@-OrderCertificate-": {
+    "description": "---------------- Order Certificate ----------------"
+  },
+  "omrahCertificate": "Umrah certificate",
+  "myCertificates": "My certificates",
+  "generateCertificate": "Generate certificate",
+  "viewCertificate": "View certificate",
+  "generatingCertificate": "Preparing the certificate…",
+  "certificateGeneratedSuccessfully": "Certificate generated successfully",
+  "certificateHintForProvider": "Generate a certificate proving the Umrah was performed, then download it or share it with the requester.",
+  "certificateHintForUser": "Generate a certificate proving the Umrah was performed, then download it or share it with whoever you like.",
+  "loadingCertificate": "Loading the certificate…",
+  "certificatePreviewUnavailable": "Could not display the certificate. You can still share it as a PDF file.",
+  "certificateSavedToGallery": "Certificate saved to your gallery",
+  "failedToSaveCertificate": "Could not save the certificate",
+  "failedToShareCertificate": "Could not share the certificate",
+  "certificateShareMessage": "Umrah certificate performed on behalf of {name}",
+  "@certificateShareMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "certificatePageIndicator": "Page {current} of {total}",
+  "@certificatePageIndicator": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "charterPageTitle": "Integrity Charter and Oath",
+  "charterHeaderTitle": "Integrity Charter and Oath",
+  "charterHeaderSubtitle": "Read the charter in full — agreement is enabled only once you reach the end.",
+  "charterNoticeTitle": "Before you continue",
+  "charterNoticeBody": "This charter contains an oath sworn by Allah Almighty and a binding undertaking. You must read it in full, and you may not agree to it before understanding everything it contains and being able to abide by it.",
+  "charterSectionLabel": "Clause {index} of {total}",
+  "@charterSectionLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "charterS1Title": "First: Accuracy of data and eligibility",
+  "charterS1Intro": "I acknowledge the following:",
+  "charterS1I1": "All data and documents I have submitted are accurate, complete and belong to me personally.",
+  "charterS1I2": "I have not used another person's data, and I have not allowed anyone else to register or use the account on my behalf.",
+  "charterS1I3": "I have previously performed Umrah for myself.",
+  "charterS1I4": "I am medically and physically able to perform the full rites of Umrah.",
+  "charterS1I5": "I will update my data as soon as any change occurs that affects my eligibility to perform Umrah.",
+  "charterS1I6": "I will disclose to Moneeb any medical, legal or religious impediment that may affect my ability to fulfil requests.",
+  "charterS2Title": "Second: Integrity of endorsements",
+  "charterS2Intro": "I acknowledge and undertake the following:",
+  "charterS2I1": "I will only request an endorsement from someone who knows me personally and genuinely.",
+  "charterS2I2": "I will not request or arrange any fictitious or inaccurate endorsement.",
+  "charterS2I3": "I will not use the data of any approved performer to obtain an endorsement without their knowledge and consent.",
+  "charterS2I4": "I am responsible for the accuracy of what I submit; endorsements neither exempt me from liability nor guarantee that my application is accepted.",
+  "charterS2I5": "Moneeb has the right to verify endorsements and to exclude any endorsement that does not meet the platform's criteria.",
+  "charterS3Title": "Third: Performing the Umrah",
+  "charterS3Intro": "If I am accepted as a performer with Moneeb, I undertake the following:",
+  "charterS3I1": "I will not accept any request unless I am able to fulfil it completely within the specified time.",
+  "charterS3I2": "I will perform the Umrah myself on behalf of the person named in the request, and will not delegate it to anyone else.",
+  "charterS3I3": "I will make the intention for the person named in the request, and will not change that person or combine more than one request in a single Umrah.",
+  "charterS3I4": "I will enter Ihram from the applicable Miqat, then perform Tawaf, Sa'i and shaving or trimming until the Umrah is complete and I have exited Ihram.",
+  "charterS3I5": "I will abide by the religious rulings relating to proxy Umrah and by the operational instructions approved by Moneeb.",
+  "charterS3I6": "I will not confirm any stage before actually performing it.",
+  "charterS3I7": "I will stop and notify Moneeb immediately if anything prevents me from completing the Umrah, and will not declare it complete when it is not.",
+  "charterS4Title": "Fourth: Documentation and verification",
+  "charterS4Intro": "I undertake that the documentation of the Umrah will be genuine and contemporaneous with its performance, as follows:",
+  "charterS4I1": "I will document the required stages exclusively from within the Moneeb app, from their actual locations and at their real times.",
+  "charterS4I2": "I will document Ihram, Tawaf, Sa'i and exiting Ihram according to the instructions shown in the app.",
+  "charterS4I3": "I will state the details of the person on whose behalf the Umrah is performed wherever the platform requires it, to prove the Umrah is dedicated to them.",
+  "charterS4I4": "I will not use previous recordings, photos or clips belonging to another Umrah or another person.",
+  "charterS4I5": "I will not alter or falsify documentation, nor re-enact any stage after it has ended and present it as live documentation.",
+  "charterS4I6": "I will not allow anyone else to carry my device or use my account to complete documentation on my behalf.",
+  "charterS4I7": "I will not use any means to circumvent the location, time, camera or verification systems within the app.",
+  "charterS4I8": "I consent to the app's use of location, time and camera to verify the Umrah stages while a request is being fulfilled.",
+  "charterS5Title": "Fifth: Privacy and conduct",
+  "charterS5Intro": "I undertake the following:",
+  "charterS5I1": "To keep the data of the requester and of the person on whose behalf the Umrah is performed confidential, and not to use or share it outside the purpose of fulfilling the request.",
+  "charterS5I2": "To respect the sanctity of the Grand Mosque and the privacy of pilgrims, and to ensure documentation never harms or obstructs others.",
+  "charterS5I3": "To comply with the regulations and instructions issued by the competent authorities within the Kingdom of Saudi Arabia.",
+  "charterS5I4": "To communicate honestly and respectfully with Moneeb, and to answer truthfully any enquiry relating to fulfilment or documentation.",
+  "charterS6Title": "Sixth: Liability and procedures",
+  "charterS6Intro": "I acknowledge that:",
+  "charterS6I1": "Submitting a registration request or obtaining endorsements does not mean I am automatically accepted as an Umrah performer.",
+  "charterS6I2": "Moneeb has the right to verify my data, documents, endorsements and record of fulfilled requests.",
+  "charterS6I3": "Any inaccurate data, falsified documentation, circumvention, or fulfilment by another person constitutes a material breach.",
+  "charterS6I4": "Where a breach is established, Moneeb may reject the application, suspend or cancel the account, and take the measures set out in the Terms of Use and the agreement.",
+  "charterS6I5": "I am not entitled to payment for any Umrah I did not fully perform, or whose performance or documentation is shown to be inaccurate.",
+  "charterS6I6": "I bear legal responsibility for any forgery, fraud or misuse, and Moneeb may refer the breach to the competent authority whenever required.",
+  "charterOathTitle": "The Oath",
+  "charterOathBody": "I swear by Allah Almighty that all the data, documents and declarations I have submitted are accurate; that I have previously performed Umrah for myself; and that if I am accepted as a performer on the Moneeb platform, I will perform every Umrah I accept myself, on behalf of the person named in the request, completing all its rites until exiting Ihram, and documenting its stages genuinely from their actual locations and at their correct times, without lying, forgery, circumvention, substitution or delegation to another person, and that I will abide by everything set out in this charter. Allah is my witness to what I say.",
+  "charterEndOfDocument": "End of the charter",
+  "charterScrollHint": "Scroll down to read the remaining clauses",
+  "charterReadPercent": "{percent}%",
+  "@charterReadPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "charterAgreeCheckbox": "I confirm that I have read all clauses of this charter, understood them, and agree to them",
+  "charterSwearButton": "I swear by Allah to that",
+  "charterGoToEnd": "Go to the end of the charter",
+  "proofGeoFenceVerified": "The pilgrim's presence inside the geographic zone has been verified",
+  "omrahAlreadyRated": "This Umrah has already been rated",
+  "omrahRatingOnceOnly": "Rating is available only once per Umrah",
+  "proofCapturedInsideAppOnly": "This documentation was filmed by the pilgrim exclusively and directly from within the app",
+  "@-OMRAH-VOICE-DOCUMENTATION-": {
+    "description": "---------------- OMRAH VOICE DOCUMENTATION ----------------"
+  },
+  "voiceDocumentationTitle": "Voice documentation phrase",
+  "voiceDocumentationHintMiqat": "While recording the video you can state the following documentation",
+  "voiceDocumentationHintTawaf": "State the following phrase while you record the video",
+  "voiceDocumentationHintSai": "While recording the video, state the following phrase",
+  "voiceDocumentationHintTahalol": "State the following phrase while you record the Tahallul video",
+  "voiceDocumentationActionMiqat": "At the Miqat and when entering Ihram, say:",
+  "voiceDocumentationActionTawaf": "Before starting the Tawaf, say:",
+  "voiceDocumentationActionSai": "While standing on Safa, before starting the Sa'i, say:",
+  "voiceDocumentationActionTahalol": "Film the act of trimming",
+  "voiceDocumentationPhraseMiqat": "Labbayk Allahumma labbayk, an Umrah on behalf of {beneficiary}",
+  "@voiceDocumentationPhraseMiqat": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceDocumentationPhraseTawaf": "Documentation of the start of the Tawaf of the Umrah on behalf of {beneficiary}, Bismillah, Allahu Akbar",
+  "@voiceDocumentationPhraseTawaf": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceDocumentationPhraseSai": "Documentation of the Sa'i of an Umrah on behalf of {beneficiary}",
+  "@voiceDocumentationPhraseSai": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceDocumentationPhraseTahalol": "The trimming is complete, and with it the Umrah on behalf of {beneficiary} is complete",
+  "@voiceDocumentationPhraseTahalol": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceDocumentationNoteTawaf": "Then say the Takbeer when you align with the Black Stone.",
+  "stepProofRejected": "The administration rejected this step's proof",
+  "rejectionReason": "Rejection reason",
+  "reuploadStepProofHint": "Please document this step and upload its proof again.",
+  "proofRejectedStatus": "Proof rejected",
+  "omrahStartsIn": "Rituals start in",
+  "omrahStartsInUser": "Time until your Umrah begins",
+  "countdownDays": "Days",
+  "countdownHours": "Hours",
+  "countdownMinutes": "Min",
+  "countdownSeconds": "Sec",
+  "omrahStartDate": "Start date: {date}",
+  "@omrahStartDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "omrahTimeArrivedProvider": "It's time to begin the rituals, you can start now",
+  "omrahTimeArrivedUser": "Your Umrah day has arrived, the provider will begin the rituals shortly",
+  "ritualsLockedUntil": "Rituals start on {date}",
+  "@ritualsLockedUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "omrahNotStartedYet": "The requested date has not arrived yet, rituals start on {date}",
+  "@omrahNotStartedYet": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "upcomingOmrah": "Upcoming Umrah",
+  "startsInDaysHours": "Starts in {days}d {hours}h",
+  "@startsInDaysHours": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "startsInClock": "Starts in {time}",
+  "@startsInClock": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  }
+}

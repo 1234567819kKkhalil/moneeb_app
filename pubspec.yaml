@@ -1,0 +1,235 @@
+name: moneeb
+description: "Moneeb project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.23+27
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Responsive
+  device_preview: ^1.2.0
+  responsive_framework: ^1.5.1
+
+  #Native splash and Launcher icon
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.4
+
+  #Localization
+  intl:
+  flutter_localization: ^0.3.3
+
+  #Shimmer
+  skeletonizer: ^2.1.0+1
+
+  #Icons and gifs
+  cupertino_icons: ^1.0.8
+  ionicons:
+  iconsax: ^0.0.8
+  lottie: ^3.3.2
+
+  #Service Locator
+
+  get_it: ^8.2.0
+  injectable: ^2.5.2
+
+  #State Management
+  flutter_bloc: ^9.1.1
+  bloc: ^9.0.1
+  bloc_concurrency: ^0.3.0
+  hydrated_bloc: ^10.1.1
+
+  #Share and deeplink stuff
+  app_links: ^6.4.1
+  share_plus: ^11.0.0
+  url_launcher: ^6.3.2
+
+  #Models and objects
+  equatable: ^2.0.7
+  collection: ^1.19.1
+
+  #Pagination
+  flutter_list_view: 1.1.28 # if you updated it to 1.1.29, then test the chat again
+
+  #Network Checkers
+  internet_connection_checker: ^1.0.0+1
+
+  #Path Utils
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  mime: ^2.0.0
+
+  #Media Pickers
+  image_picker: ^1.2.0
+  file_picker: ^10.3.3
+
+  #Video Utils
+  video_player: ^2.10.0
+  video_thumbnail: ^0.5.6
+  video_compress: ^3.1.4
+  video_player_media_kit: ^1.0.7
+
+  #Image Utils
+  image: ^4.5.4
+  image_cropper: ^11.0.0
+  extended_image: ^10.0.1
+  flutter_image_compress: ^2.4.0
+  flutter_svg: ^2.2.1
+  photo_manager: ^3.7.1
+
+  #PDF rendering (order certificates preview)
+  pdfx: ^2.9.2
+
+  #Save to gallery
+  gal: ^2.3.2
+
+  #Network Global Time
+  ntp: ^2.0.0
+  # timezone: ^0.10.1
+
+  #Local Storages
+  shared_preferences: ^2.5.3
+
+  #DIO
+  http:
+  dio: ^5.9.0
+  http_parser: ^4.1.2
+
+  #Rx
+  rxdart: ^0.28.0
+
+  #Permission Handler
+  permission_handler: ^12.0.1
+  app_settings: ^6.1.1
+  open_settings_plus: 0.4.0
+
+  #Analytics info
+  device_info_plus:
+  package_info_plus: ^8.3.1
+
+  #Firebase
+  firebase_core: ^4.1.1
+  firebase_messaging: ^16.0.2
+  #  firebase_remote_config: ^6.0.2
+
+  #Notification
+  eraser: ^3.0.0
+  flutter_local_notifications: ^19.4.2
+
+  #Security
+  envied: ^1.3.1
+  #  safe_device: ^1.3.5
+  #  jailbreak_root_detection: ^1.2.0+1
+  #  screen_protector: ^1.4.2+1
+  #  local_auth: ^2.3.0
+
+  #Encryption
+  encrypt: ^5.0.3
+  crypto: ^3.0.6
+
+  #Hijri Calendar
+  hijri: ^3.0.0
+
+  #Location
+  geolocator: ^13.0.3
+  geolocator_apple: ^2.3.13
+  geocoding: ^3.0.0
+  google_maps_flutter: ^2.18.0
+
+  #Others
+  gap: ^3.0.1
+  smooth_page_indicator: ^1.2.1
+  webview_flutter: ^4.13.0
+  json_annotation: ^4.9.0
+  wakelock_plus: ^1.2.10
+  swipe_to: ^1.0.6
+  visibility_detector: ^0.4.0+2
+  flutter_ruler_picker: ^1.0.6
+  pinput: ^5.0.2
+  dotted_border: ^3.1.0
+  battery_plus: ^7.0.0
+  flutter_background_service: ^5.1.0
+  socket_io_client: ^3.1.4
+  iconify_design: ^1.0.1
+  carousel_slider: 5.1.2
+  flutter_timezone: ^5.0.2
+
+  #todo: review these dependencies
+  #  flutter_html: ^3.0.0
+  #  gradients: ^0.1.1+2
+  #  gradient_borders: ^1.0.2
+  #  flutter_gradient_text: ^1.0.1
+  #  flutter_gradient_animation_text: ^1.0.2
+  #  flutter_animate: ^4.5.2
+  #  flutter_sliding_toast: ^1.5.3
+  #  loading_animation_widget: ^1.3.0
+  #  flutter_rating_bar: ^4.0.1
+  #  expandable: ^5.0.1
+  #  flutter_image_slideshow: ^0.1.6
+  #  story_view: ^0.16.6
+  #  msh_checkbox: ^2.0.1
+  #  open_filex: ^4.7.0
+  #  uuid: ^4.5.1
+  #  geolocator: ^13.0.3
+  #  geolocator_android: 4.6.1
+  #  custom_info_window: ^1.0.1
+  #  pinput: ^6.0.2
+  #  flutter_card_swiper: ^7.2.0
+  #  flutter_qiblah: ^3.1.0+1
+  #  fl_country_code_picker: ^0.1.9+1
+  #  socket_io_client: ^3.1.4
+  flutter_compass_v2: ^1.0.3
+  change_app_package_name: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  injectable_generator:
+  json_serializable: ^6.8.0
+  floor_generator: ^1.5.0
+  envied_generator: ^1.1.1
+
+flutter:
+  # Plugins are integrated through CocoaPods only, matching the Podfile and
+  # the CI workflow (some plugins do not build as Swift packages yet).
+  config:
+    enable-swift-package-manager: false
+
+  generate: true
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/map/
+    - assets/images/splash/
+    - assets/icons/
+    - assets/icons/omrah/
+    - assets/icons/auth/
+    - assets/settings.html
+
+  fonts:
+    - family: LamaSans
+      fonts:
+        - asset: assets/fonts/LamaSans-ExtraBold.ttf
+          weight: 900
+        - asset: assets/fonts/LamaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/LamaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/LamaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/LamaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/LamaSans-Light.ttf
+          weight: 300
+    - family: KFGQPC
+      fonts:
+        - asset: assets/fonts/KFGQPC.otf

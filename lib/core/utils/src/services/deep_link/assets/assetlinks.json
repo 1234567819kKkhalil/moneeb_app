@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "",
+      "sha256_cert_fingerprints": [
+        "21:53:9B:F8:78:EF:BB:44:F8:4A:D0:88:C4:68:84:2C:5C:17:34:C8:C0:FF:9A:10:D0:98:D2:69:90:5A:11:4D",
+        "sha256 from google store"
+      ]
+    }
+  }
+]

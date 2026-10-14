@@ -1,0 +1,64 @@
+﻿Analyzing home...                                               
+
+   info - Library names are not necessary - lib\features\home\home_imports.dart:1:9 - unnecessary_library_name
+   info - The part-of directive uses a library name - lib\features\home\src\data\endpoints\home_endpoint.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\data\models\story_model.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\data\repository\home_repositories_imp.dart:1:1 - use_string_in_part_of_directives
+   info - Don't invoke 'print' in production code - lib\features\home\src\data\repository\home_repositories_imp.dart:9:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\home\src\data\repository\home_repositories_imp.dart:18:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\home\src\data\repository\home_repositories_imp.dart:28:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\home\src\data\repository\home_repositories_imp.dart:31:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\home\src\data\repository\home_repositories_imp.dart:35:7 - avoid_print
+   info - The part-of directive uses a library name - lib\features\home\src\domain\entities\home_dummy_data.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\domain\entities\story_entity.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\domain\repositories\home_repositories.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\domain\use_cases\get_home_feed_use_case.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\domain\use_cases\get_stories_use_case.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\manger\home_cubit.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\manger\home_state.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\pages\home_page.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\pages\story_viewer_screen.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\azkar_home_item.dart:1:1 - use_string_in_part_of_directives
+   info - Constructors in '@immutable' classes should be declared as 'const' - lib\features\home\src\presentation\widgets\azkar_home_item.dart:6:3 - prefer_const_constructors_in_immutables
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\azkar_section.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\countdown_card.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\home_app_bar.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\home_widgets.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\live_home_item.dart:1:1 - use_string_in_part_of_directives
+   info - Constructors in '@immutable' classes should be declared as 'const' - lib\features\home\src\presentation\widgets\live_home_item.dart:6:3 - prefer_const_constructors_in_immutables
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\live_section.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\real_trust_item.dart:1:1 - use_string_in_part_of_directives
+   info - Constructors in '@immutable' classes should be declared as 'const' - lib\features\home\src\presentation\widgets\real_trust_item.dart:7:3 - prefer_const_constructors_in_immutables
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\rituals_documentation_section.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\stories_section.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\trusted_pilgrims_section.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\trustworthy_pilgrim_item.dart:1:1 - use_string_in_part_of_directives
+   info - Constructors in '@immutable' classes should be declared as 'const' - lib\features\home\src\presentation\widgets\trustworthy_pilgrim_item.dart:6:3 - prefer_const_constructors_in_immutables
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\umrah_stage_item.dart:1:1 - use_string_in_part_of_directives
+   info - Constructors in '@immutable' classes should be declared as 'const' - lib\features\home\src\presentation\widgets\umrah_stage_item.dart:7:3 - prefer_const_constructors_in_immutables
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\umrah_tracking_section.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\video_home_item.dart:1:1 - use_string_in_part_of_directives
+   info - Constructors in '@immutable' classes should be declared as 'const' - lib\features\home\src\presentation\widgets\video_home_item.dart:6:3 - prefer_const_constructors_in_immutables
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\videos_section.dart:1:1 - use_string_in_part_of_directives
+   info - The part-of directive uses a library name - lib\features\home\src\presentation\widgets\welcome_section.dart:1:1 - use_string_in_part_of_directives
+
+flutter : 41 issues 
+found. (ran in 3.3s)
+At line:1 char:1
++ flutter analyze 
+lib/features/home 
+--no-pub > 
+analyze_output.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo      
+        : NotSpecified: 
+(41     issues found. 
+(ran in     
+3.3s):String) [], Remo  
+  teException
+    + 
+FullyQualifiedErrorI    
+d : NativeCommandError
+ 

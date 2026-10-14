@@ -1,0 +1,1598 @@
+{
+  "@-AppUpdater-": {
+    "description": "---------------- AppUpdater ----------------"
+  },
+  "updateApp": "تحديث التطبيق",
+  "updateAppTitle": "يتوفر إصدار جديد. يرجى التحديث الآن لمتابعة استخدام التطبيق.",
+  "updateAppDes": "هذا الإصدار لم يعد مدعومًا.",
+  "updateNow": "تحديث الآن",
+  "version": "الاصدار",
+  "versionInfoNotAvailable": "ملعومات الاصدار غير متاحة",
+  "@-Notifications-": {
+    "description": "---------------- Notifications ----------------"
+  },
+  "notifications": "الاشعارات",
+  "noNotifications": "لا يوجد اشعارات",
+  "noNotificationsHint": "لم يتم العثور على اشعارات",
+  "notification": "الاشعار",
+  "noNotificationHint": "لم يتم العثور على اشعارات",
+  "notificationDeleted": "تم حذف الاشعار",
+  "notificationDeletedError": "فشل في حذف الاشعار",
+  "notificationDeletedSuccess": "تم حذف الاشعار بنجاح",
+  "notificationUpdated": "تم تحديث الاشعار",
+  "notificationUpdatedError": "فشل في تحديث الاشعار",
+  "notificationUpdatedSuccess": "تم تحديث الاشعار بنجاح",
+  "@-IMAGE_EDITOR-": {
+    "description": "---------------- IMAGE EDITOR ----------------"
+  },
+  "custom": "مخصص",
+  "original": "أصلي",
+  "undo": "تراجع",
+  "redo": "إعادة",
+  "flip": "انعكاس",
+  "rotateRight": "تدوير لليمين",
+  "imageEditor": "محرر الصور",
+  "editImage": "تعديل الصورة",
+  "savingToGallery": "جارٍ حفظ الصورة في المعرض",
+  "editingImagePleaseWait": "جارٍ تعديل الصورة، يرجى الانتظار..",
+  "saveToGallery": "حفظ في المعرض",
+  "couldNotSaveImage": "تعذر حفظ الصورة",
+  "imageSavedToGallery": "تم حفظ الصورة في المعرض",
+  "failedToEditImage": "فشل في تعديل صورتك",
+  "@-MediaUtils-": {
+    "description": "---------------- MediaUtils ----------------"
+  },
+  "kb": "KB",
+  "mb": "MB",
+  "gb": "GB",
+  "image": "صورة",
+  "video": "فيديو",
+  "audio": "مقطع صوتي",
+  "document": "ملف",
+  "embedLink": "رابط",
+  "file": "ملف",
+  "gallery": "المعرض",
+  "takePhoto": "التقاط صورة",
+  "takeVideo": "التقاط فيديو",
+  "chooseFromLibrary": "اختر من معرض الصور ",
+  "imagesGallery": "معرض الصور",
+  "chooseAFile": "Choose a file",
+  "jPGPNGExtensions": "JPG، PNG",
+  "stopped": "انتهي",
+  "paused": "متوقف",
+  "recording": "يسجل",
+  "preparingRecorder": "جاري التجهيز..",
+  "typeAudioTitle": "اكتب عنوان للصوت",
+  "playbackSpeed": "سرعة التشغيل",
+  "errorStartRecording": "خطأ، لم يتم بدء التسجيل.",
+  "couldNotStopRecord": "تعذر إيقاف التسجيل",
+  "couldNotPauseRecord": "تعذر إيقاف التسجيل مؤقتًا.",
+  "couldNotResumeRecord": "تعذر استئناف التسجيل.",
+  "errorPlayingVideo": "خطأ في تشغيل الفيديو",
+  "mediaExceededSizeLimitSkipped": "تم تخطي {count} من الوسائط لتعدي الحد الأقصى للحجم و هو {maxSize} ميجابايت",
+  "@mediaExceededSizeLimitSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "mediaExceededMaxCountLimitSkipped": "تم تخطي {count} من الوسائط لتعدي الحد الأقصى للعدد و هو {maxSize} صورة",
+  "@mediaExceededMaxCountLimitSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "unsupportedFileType": "Unsupported file type",
+  "unSupportedMediaSkipped": "تم تخطي {count} من الوسائط لان صيغه الصورة غير مدعومة",
+  "@unSupportedMediaSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "maximumAllowedAudio": "الحد الأقصى {count}",
+  "@maximumAllowedAudio": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "maximumAllowedImages": "(الحد الأقصى {count} صورة)",
+  "@maximumAllowedImages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "maximumAllowedVideos": "(الحد الأقصى {count} فيديو)",
+  "@maximumAllowedVideos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sizeLimitExceeded": "تم تجاوز الحد الأقصى للحجم، الحد الأقصى هو {maxSize} ميغابايت ",
+  "@sizeLimitExceeded": {
+    "placeholders": {
+      "maxSize": {
+        "type": "int"
+      }
+    }
+  },
+  "supportedFileTypeIs": "أنواع الملفات المدعومة هي",
+  "permissionNotGranted": "لم يتم منح الإذن",
+  "givePermissionsManually": "يجب عليك منح الأذونات يدويًا من الإعدادات",
+  "removeImage": "حذف الصورة",
+  "videoSavedToGallery": "تم حفظ الفيديو في المعرض",
+  "errorPickingMedia": "حدث خطأ أثناء اختيار الوسائط",
+  "errorFileSize": "الملف كبير جدًا",
+  "uploadCancelled": "تم إلغاء رفع الملف",
+  "maximumSizeLimitWithSkippedError": "أقصى حجم {limit} ميجا, {count, plural, =1{1 ملف} other{{count} ملفات}} تم تجاهلها",
+  "@maximumSizeLimitWithSkippedError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      },
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "uploadError": "خطأ غير متوقع في رفع الملف",
+  "uploadFailedError": "Upload Failed",
+  "videoLoadingError": "خطأ فى تحميل الملف",
+  "compressionError": "فشل ضغط الملف",
+  "thumbnailError": "فشل استخراج للفيديو",
+  "maximumAttachmentLimitError": "الحد الأقصى ({limit})",
+  "@maximumAttachmentLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumImagesLimitError": "الحد الأقصى ({limit}) صور",
+  "@maximumImagesLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumVideoLimitError": "الحد الأقصى ({limit}) فيديو",
+  "@maximumVideoLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumAudioLimitError": "الحد الأقصى ({limit}) سجل صوتى",
+  "@maximumAudioLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumCountSizeLimitError": "الحد الأقصى للإختيار {count} ،وأقصى حجم {limit} ميجا",
+  "@maximumCountSizeLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      },
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "maximumSizeLimitError": "أقصى حجم {limit} ميجا",
+  "@maximumSizeLimitError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "fileSizeError": "الملف كبير جدًا",
+  "fileDoesNotExist": "الملف غير موجود",
+  "fileExceedError": "تعدي حجم الملف {limit} ميجا",
+  "@fileExceedError": {
+    "placeholders": {
+      "limit": {
+        "type": "num"
+      }
+    }
+  },
+  "mediaPickupCanceled": "تم إلغاء اختيار الوسائط, يرجى المحاولة مرة أخرى",
+  "couldNotDownloadFileError": "خطأ فى تحميل الملف",
+  "fileCorruptionError": "حدث خطا بهذا الملف",
+  "emptyFileError": "لايمكن رفع الملف، تأكد من اختيار ملف صالح",
+  "pickPdfValidationError": "من فضلك اختر ملف صحيح",
+  "couldNotOpenRecord": "تعذّر فتح التسجيل",
+  "downloadSuccessfully": "تم التحميل بنجاح",
+  "failedToLoadTheAudio": "فشل في تحميل الصوت ",
+  "failedToLoadTheVideo": "فشل في تحميل الفيديو",
+  "mediaLimit": "لقد تعديت الحد الاقصي للوسائط، تمت اضافة ",
+  "outOf": "من",
+  "videoLimit": "الحد الأقصى لتحميل الفيديو هو 1",
+  "pickingMedia": "اختيار الوسائط..",
+  "addImages": "إضافة صور",
+  "@-ERRORS-": {
+    "description": "---------------- ERRORS ----------------"
+  },
+  "emptyEmailError": "حقل البريد الإلكتروني مطلوب ولا يمكن أن يكون فارغًا.",
+  "emailFormatError": "تنسيق بريد إلكتروني غير صالح. حاول مرة اخرى.",
+  "emailCapitalCharactersError": "يجب ألا يحتوي البريد الإلكتروني على أحرف كبيرة",
+  "emailContainArabicError": "يجب ألا يحتوي البريد الإلكتروني على حروف عربية",
+  "emailHasSpaceError": "لا يمكن للبريد الالكتروني ان يحتوي علي مسافات",
+  "passwordDoesNotMatchError": "كلمة المرور لا تتطابق مع كلمة المرور الجديدة",
+  "emptyPasswordError": "حقل كلمة المرور مطلوب ولا يمكن أن يكون فارغًا.",
+  "lengthPasswordError": "يجب أن يكون طول كلمة المرور على الأقل 8 أحرف",
+  "uppercaseLetterPasswordError": "يجب أن تحتوي كلمة المرور على حرف كبير على الأقل",
+  "lowercaseLetterPasswordError": "يجب أن تحتوي كلمة المرور على حرف صغير على الأقل",
+  "digitPasswordError": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل",
+  "specialCharPasswordError": "يجب أن تحتوي كلمة المرور على حرف خاص واحد على الأقل",
+  "emptyNameError": "حقل الإسم مطلوب ولا يمكن أن يكون فارغًا.",
+  "emptyFirstNameError": "الرجاء إدخال الاسم الأول",
+  "emptyLastNameError": "الرجاء إدخال الاسم الأخير",
+  "nameIsRequiredError": "حقل الاسم مطلوب ولا يمكن أن يكون فارغًا.",
+  "inValidNameError": "رجاء ادخل اسما صحيحا",
+  "nameLengthError": "يجب أن يكون الاسم بين 2 و 25 حرفًا",
+  "enterMobileNumberError": "من فضلك قم بادخال رقم هاتفك",
+  "otpNumberExceeded": "لقد تجاوزت العدد المسموح به لإرسال رمز التفعيل, يرجى المحاولة مرة أخرى في وقت آخر بعد",
+  "userCancelSocialLoginError": "تم إلغاء التسجيل",
+  "failedToLoginWithGoogleError": "فشل تسجيل الدخول باستخدام جوجل",
+  "failedToLoginWithFacebookError": "فشل تسجيل الدخول باستخدام فيسبوك",
+  "failedToLoginWithTwitterError": "فشل تسجيل الدخول باستخدام اكس",
+  "failedToLoginWithAppleError": "فشل تسجيل الدخول مع آبل",
+  "socialRegisterDataNotCompleteError": "Register Data Not Complete Make Sure Every Thing is Ok",
+  "couldNotLaunchError": "لا يمكن فتح هذا الرابط",
+  "serverError": "خطا بالسيرفر، من فضلك حاول في وقت اخر",
+  "unexpectedError": "خطا غير متوقع، من فضلك حاول في وقت اخر",
+  "networkError": "لا يوجد انترنت",
+  "hasInternetConnection": "has internet connection",
+  "noInternetConnection": "no internet connection",
+  "permissionNotGrantedError": "Permission not granted",
+  "voicePermissionError": "Could not grant voice permissions",
+  "cameraPermissionError": "Could not grant camera permissions",
+  "mediaPermissionError": "Could not grant media permissions",
+  "locationPermissionError": "Could not grant location permissions",
+  "notificationPermissionError": "Could not grant notification permissions",
+  "photoVideoPermissionError": "Could not grant photos and videos permissions",
+  "videosPermissionError": "Could not grant videos permissions",
+  "noItemFoundError": "لم يتم العثور على أي عنصر",
+  "noResultsFoundError": "No results found",
+  "failedToGetUserInfoError": "فشل في الحصول على معلومات المستخدم",
+  "blockedErrorTitleError": "تم حظر حسابك",
+  "blockedErrorDescError": "عذرًا، لقد تم حظر حسابك",
+  "unAuthorizedErrorTitleError": "عملية غير مصرح بها",
+  "unAuthorizedErrorDescError": "عذرًا، ليس لديك الصلاحية لإجراء هذه العملية.",
+  "invalidLinkError": "الرابط غير صالح، يرجى التأكد من صلاحية الرابط الذي تم لصقه",
+  "seemTobeOffline": "يبدو أنك غير متصل بالإنترنت!",
+  "hangWeReconnecting": "تمهّل قليلاً! نحن نحاول إعادة الاتصال.",
+  "noSearchResults": "لم يتم العثور على نتائج بحث علي {text}",
+  "@noSearchResults": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "noSearchResultsHint": "تحقق من صحة الإملاء وحاول مرة أخرى أو ابحث عن شيء جديد",
+  "permissionRequired": "السماح بالوصول إلى {value} في إعدادات الجهاز",
+  "@permissionRequired": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "permissionRequiredDesc": "لاستخدام هذه الميزة، يرجى تمكين الوصول إلى {value} في إعدادات الجهاز",
+  "@permissionRequiredDesc": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@-AUTH-": {
+    "description": "---------------- AUTH ----------------"
+  },
+  "welcomeSplash": "أهلاً بك",
+  "allRightsReserved": "جميع الحقوق محفوظة © All rights reserved",
+  "quranQuote": "﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾",
+  "chooseGender": "أختار النوع",
+  "pleaseChooseGender": "من فضلك اختار النوع",
+  "quranHafiz": "هل حافظ القران الكريم",
+  "pleaseChooseQuranMemorization": "من فضلك اختار هل حافظ القران الكريم",
+  "certificateNameRequired": "اسم الشهادة مطلوب",
+  "uploadCertificateImage": "رفع صورة الشهادة",
+  "bioRequired": "سيرة ذاتية مطلوبة",
+  "umrahCountRequired": "عدد مرات العمرة مطلوب",
+  "enterValidNumber": "أدخل رقم صحيح",
+  "idNumberRequired": "رقم الهوية مطلوب",
+  "pleaseUploadImage": "الرجاء رفع الصورة",
+  "pleaseUploadIdImage": "الرجاء رفع صورة الهوية",
+  "providerOath": "أقسم بالله العظيم،\nأن أؤدي العمرة أو الحج بأمانة وإخلاص،\nوأن أنوي العمل خالصًا لوجه الله تعالى،\nوأن ألتزم بجميع الأحكام الشرعية والضوابط الأخلاقية.\n\nوأتعهد:\n• أن أؤدي النسك عن صاحب العمرة كما طُلب مني دون تقصير أو إهمال.\n• أن أيكون صادقًا في المعلومات والتوثيق والصور المرسلة داخل التطبيق.\n• أن أحفظ سرية بيانات أصحاب العمرة ولا أُسيء استخدامها.\n• أن أحترم قدسية المكان والزمان، وأمثل التطبيق بأفضل صورة.\n• أن أتقي الله في كل عمل أقوم به داخل هذا التطبيق.\n\nوأقرّ بأن أي مخالفة لما سبق تُسقط حقي في استخدام التطبيق، وأتحمّل كامل المسؤولية أمام الله ثم أمام إدارة التطبيق.\n\"والله على ما أقول شهيد.\"",
+  "@-SHARE-": {
+    "description": "---------------- SHARE ----------------"
+  },
+  "downloadApp": "تحميل تطبيق",
+  "shareAppTitleContent": "تجربة مسار سلس للجميع",
+  "@-Biometric auth-": {
+    "description": "---------------- Biometric auth ----------------"
+  },
+  "biometricAuth": "مفتاح مرور",
+  "useToOpen": "افتح القفل باستخدام {biometric}",
+  "@useToOpen": {
+    "placeholders": {
+      "biometric": {
+        "type": "String"
+      }
+    }
+  },
+  "on": "مفعل",
+  "off": "غير مفعل",
+  "enabled": "مفعل",
+  "disabled": "غير مفعل",
+  "immediately": "على الفور",
+  "after10Sec": "بعد 10 ثوانيٍ",
+  "after30Sec": "بعد 30 ثانية",
+  "afterMinute": "بعد دقيقة واحدة",
+  "appLock": "إنشاء مفتاح مرور",
+  "enableFaceTouchId": "فعّل معرف الوجه أو بصمة الإصبع للوصول السريع جدًا إلى احتفالات الطعام الخاصة بك.",
+  "enableAppLock": "إنشاء مفتاح مرور",
+  "openSettings": "فتح الإعدادات",
+  "passkey": "إدخال مفتاح المرور",
+  "useBiometric": "استخدم {biometric}",
+  "@useBiometric": {
+    "placeholders": {
+      "biometric": {
+        "type": "String"
+      }
+    }
+  },
+  "faceRecognition": "معرف الوجه",
+  "fingerprint": "بصمة الإصبع",
+  "iris": "مسح قزحية العين",
+  "anyBiometric": "المصادقة البيومترية المتاحة",
+  "toUseApp": "لفتح التطبيق",
+  "noBiometricAvailable": "المصادقة البيومترية غير متاحة. يرجى استخدام رمز المرور إذا كان متاحًا",
+  "biometricFailure": "المصادقة البيومترية غير متوفرة.",
+  "@-ADDRESS-": {
+    "description": "---------------- ADDRESS ----------------"
+  },
+  "addressTitle": "العناوين",
+  "searchAddress": "بحث عن عنوان",
+  "addAddressButtonText": "أضف عنوانًا",
+  "addAddress": "أضف عنواناً لتسهيل عمليات التوصيل",
+  "addAddressDes": "يمكنك إضافة عنوان المنزل أو عنوان العمل أو أي عنوان آخر تريد توصيل طلباتك إليه.",
+  "addressSavedSuccessfully": "تم حفظ العنوان بنجاح",
+  "addressDetails": "تفاصيل العنوان",
+  "location": "الموقع",
+  "additionalAddressInfo": "معلومات إضافية عن العنوان",
+  "apt": "رقم الشقة",
+  "buildingName": "اسم المبنى",
+  "addressName": "اسم العنوان",
+  "floor": "الطابق",
+  "street": "الشارع",
+  "additionalDirections": "إرشادات إضافية",
+  "addressLabel": "اسم العنوان",
+  "additionalInstructions": "تعليمات إضافية",
+  "pickLocation": "اختر الموقع",
+  "findCaterersNearby": "البحث عن مقدمي الخدمات بالقرب منك",
+  "findCaterersNearbyDes": "أخبرنا بمكان التجمع! سنجد لك خيارات تقديم الطعام اللذيذة بالقرب منك.",
+  "shareLocation": "الموقع الحالي",
+  "enableLocation": "قم بتنشيط الوصول الى موقعك للوصول الى مقدمي الخدمه بالقرب منك",
+  "deliveryAddress": "تفاصيل التوصيل",
+  "confirmPinLocation": "تأكيد مكان التسليم",
+  "confirmLocation": "تأكيد مكان التسليم",
+  "detecting": "تحديد الموقع...",
+  "currentLocation": "الموقع الحالي",
+  "selectLocationHint": "حدّد موقعك",
+  "updateLocationTitle": "تحديث الموقع",
+  "updateLocationConfirmation": "هل تريد تحديث موقعك الحالي؟",
+  "yesUpdate": "نعم، حدّث",
+  "enableLocationServicePrompt": "يرجى تفعيل خدمة الموقع لتحديد موقعك",
+  "locationPermissionDeniedForeverPrompt": "تم رفض إذن الموقع. يرجى تفعيله من إعدادات التطبيق",
+  "unnamedRoad": "طريق بدون اسم",
+  "chooseDeliveryLocation": "اختر موقع التسليم",
+  "savedAddress": "العناوين المحفوظة",
+  "deliverToDifferentLocation": "التوصيل إلى موقع مختلف",
+  "zoomInMore": "يرجى تكبير الصورة أكثر للعثور على موقع التسليم الدقيق الخاص بك",
+  "selectYourArea": "إختر المنطقة",
+  "shareYourLocation": "Share your location",
+  "byAllowLocation": "By allowing App to detect your location, We can show you nearby restaurants more accurately",
+  "goToSetting": "Go to setting",
+  "searchCountry": "ابحث عن الدوله",
+  "searchArea": "ابحث عن المنطقة",
+  "searchCity": "ابحث عن المدينة",
+  "@-DATES-": {
+    "description": "---------------- DATES ----------------"
+  },
+  "dates": "التواريخ",
+  "sinceDate": "منذ",
+  "justNow": "الآن",
+  "year": "{count, plural, =0{0 سنة} =1{1 سنة} other{{count} سنين}}",
+  "@year": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "month": "{count, plural, =0{0 شهر} =1{1 شهر} other{{count} شهور}}",
+  "@month": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "week": "{count, plural, =0{أسبوع} =1{1 أسبوع} other{{count} أسابيع}}",
+  "@week": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceWeek": "منذ {count, plural, =0{أسبوع} =1{أسبوع} =2{أسبوعين} few{{count} أسابيع} many{{count} أسبوعًا} other{{count} أسبوع}}",
+  "@sinceWeek": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "day": "{count, plural, =0{0 يوم} =1{1 يوم} other{{count} أيام}}",
+  "@day": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceDay": "منذ {count, plural, =0{يوم} =1{يوم} =2{يومين} few{{count} أيام} many{{count} يومًا} other{{count} يوم}}",
+  "@sinceDay": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "hour": "{count, plural, =0{ساعة} =1{1 ساعة} other{{count} ساعات}}",
+  "@hour": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceHour": "منذ {count, plural, =0{ساعة} =1{ساعة} =2{ساعتين} few{{count} ساعات} many{{count} ساعة} other{{count} ساعة}}",
+  "@sinceHour": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "min": "{count, plural, =0{دقيقة} =1{1 دقيقة} other{{count} دقائق}}",
+  "@min": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceMin": "منذ {count, plural, =0{دقيقة} =1{دقيقة} =2{دقيقتين} few{{count} دقائق} many{{count} دقيقة} other{{count} دقيقة}}",
+  "@sinceMin": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "minute": "{count, plural, =0{دقيقة} =1{1 دقيقة} other{{count} دقائق}}",
+  "@minute": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceMinute": "منذ {count, plural, =0{دقيقة} =1{دقيقة} =2{دقيقتين} few{{count} دقائق} many{{count} دقيقة} other{{count} دقيقة}}",
+  "@sinceMinute": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "second": "{count, plural, =0{ثانية} =1{ثانية} =2{ثانيتين} few{{count} ثواني} many{{count} ثانية} other{{count} ثانية}}",
+  "@second": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceSecond": "منذ {count, plural, =0{ثانية} =1{ثانية} =2{ثانيتين} few{{count} ثواني} many{{count} ثانية} other{{count} ثانية}}",
+  "@sinceSecond": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sec": "{count, plural, =0{ثانية} =1{ثانية} =2{ثانيتين} few{{count} ثواني} many{{count} ثانية} other{{count} ثانية}}",
+  "@sec": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "sinceSec": "منذ {count, plural, =0{ثانية} =1{ثانية} =2{ثانيتين} few{{count} ثواني} many{{count} ثانية} other{{count} ثانية}}",
+  "@sinceSec": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "h": "س",
+  "m": "د",
+  "s": "ث",
+  "eveningPM": " مساءً",
+  "morningAM": " صباحاً",
+  "minutes": "دقائق",
+  "hours": "ساعات",
+  "days": "يوم",
+  "weeks": "أسابيع",
+  "months": "شهور",
+  "years": "سنوات",
+  "@-ACTIONS-": {
+    "description": "---------------- ACTIONS ----------------"
+  },
+  "turnOn": "تشغيل",
+  "later": "لاحقاً",
+  "start": "ابدأ",
+  "share": "مشاركة",
+  "edit": "تعديل",
+  "delete": "حذف",
+  "done": "تم",
+  "cancel": "الغاء",
+  "confirm": "تاكيد",
+  "next": "التالي",
+  "skip": "تخطى",
+  "change": "تغيير",
+  "cont": "متابعة",
+  "add": "إضافة",
+  "accept": "قبول",
+  "save": "حفظ",
+  "retry": "إعادة المحاولة",
+  "ok": "حسنا",
+  "send": "إرسال",
+  "back": "رجوع",
+  "sureYouWantToExit": "هل انت متاكد انك تريد الخروج",
+  "leave": "مغادرة",
+  "stay": "البقاء",
+  "sendMedia": "ارسل صورة أو فيديو",
+  "sendPdf": "رفع ملف",
+  "openCamera": "التقط صورة",
+  "wait": "انتظر",
+  "showMore": "قراءة المزيد",
+  "showLess": "قراءة الأقل",
+  "reSend": "إعادة الإرسال",
+  "recall": "إعادة الاتصال",
+  "reply": "رد",
+  "copy": "نسخ",
+  "typing": "يكتب..",
+  "copyMessage": "تم نسخ الرسالة",
+  "selectYour": "اختر",
+  "yes": "نعم",
+  "no": "لا",
+  "verifyTextBtn": "التحقق",
+  "unlinkAccount": "Unlink",
+  "linkAccount": "Link",
+  "discard": "تجاهل",
+  "proceed": "متابعة",
+  "close": "إغلاق",
+  "sendCode": "أرسل رمز التحقق",
+  "previous": "السابق",
+  "reset": "إعادة تعيين",
+  "search": "ابحث",
+  "searchWithDots": "...بحث",
+  "logOut": "تسجيل الخروج",
+  "upload": "تحميل",
+  "record": "سِجِلّ",
+  "clear": "مسح",
+  "remove": "إزالة",
+  "enable": "تفعيل",
+  "disable": "إلغاء التفعيل",
+  "clickHere": "اضغط هنا",
+  "loadMore": "تحميل المزيد",
+  "seeMore": "المزيد",
+  "book": "احجز",
+  "logIn": "تسجيل الدخول",
+  "getStarted": "ابدأ",
+  "getStartedNow": "ابدأ الآن",
+  "tryAgain": "حاول مرة أخرى",
+  "select": "اختر",
+  "apply": "تطبيق",
+  "refresh": "إعادة المحاولة",
+  "viewMore": "قراءة المزيد",
+  "more": "المزيد",
+  "viewLess": "قراءة الأقل",
+  "now": "الآن",
+  "agoMinutes": "منذ {count} دقيقة",
+  "agoHours": "منذ {count} ساعة",
+  "agoDays": "منذ {count} يوم",
+  "@agoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@agoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@agoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@-HOME-": {
+    "description": "---------------- HOME ----------------"
+  },
+  "dailyApps": "تطبيقاتك اليومية",
+  "liveFromHaram": "بث من مسجد الحرام الأن",
+  "currentUmrah": "العمرة الجارية..",
+  "videos": "فيديوهات",
+  "@-COMMON-": {
+    "description": "---------------- COMMON ----------------"
+  },
+  "details": "التفاصيل",
+  "changeLanguage": "تغيير اللغه",
+  "welcomeTo": "مرحبآ بك في ",
+  "welcomeGuest": "مرحباً",
+  "welcome": "مرحباً يا {name}",
+  "@welcome": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appName": "---",
+  "mobileNumber": "Mobile number",
+  "tapToSelect": "اضغط للتحديد",
+  "country": "الدولة",
+  "city": "المدينة",
+  "area": "المنطقة",
+  "lang": "English",
+  "male": "ذكر",
+  "female": "أنثى",
+  "noAnswer": "لا أفضل الإجابة",
+  "success": "نجاح !",
+  "guest": "ضيف",
+  "youAreGuestLogin": "أنت زائر، قم بتسجيل الدخول للمتابعة.",
+  "exitDescription": "هل تريد الخروج من التطبيق",
+  "areYouSure": "هل أنت متأكد؟",
+  "addedSuccessfully": "تمت الاضافه بنجاح",
+  "pastYourLink": "قم بلصق الرابط الخاص بك هنا",
+  "selectYourCountry": "اختر دولتك",
+  "appLocked": "الاب مقفل",
+  "searchResults": "نتائج البحث",
+  "or": " or ",
+  "pleaseReadContentCarefully": "يرجى قراءة المحتوى جيداً لمعرفة المزيد عن التطبيق",
+  "searchHere": "ابحث هنا",
+  "azkar": "الأذكار",
+  "dua": "دعاء",
+  "tasbeeh": "السبحة الإلكتروني",
+  "tasbeehDescription": "استمتع بتجربة السبحة الإلكترونية داخل التطبيق، وسجّل تسبيحاتك بكل سهولة ودقة",
+  "praiseNow": "سبح الأن",
+  "prayerTimes": "مواقيت الصلاة",
+  "prayerTimesDescription": "تابع مواقيت الصلاة بدقة حسب موقعك الحالي",
+  "time": "الوقت",
+  "occasions": "مناسبات",
+  "read": "قراءة",
+  "today": "اليوم",
+  "somethingWentWrong": "حدث خطأ ما",
+  "remaining": "باقي",
+  "selectDhikr": "اختار الذكر",
+  "resetSebha": "تصفير المسبحة",
+  "tasbeehPlaceholder": "سبحان الله وبحمده",
+  "qiblah": "إتجاه القبلة",
+  "qiblahDescription": "اعرف إتجاه القبلة بدقة بناءً على موقعك الحالي",
+  "qiblahNow": "القبلة الآن",
+  "enterDhikr": "أدخل ذكر ",
+  "timings": "المواقيت",
+  "daysRemainingUntil": "تبقى على {eventName} {days} يوماً، تاريخ المناسبة في {date}",
+  "daysLeft": "باقي {days} يوم",
+  "@daysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "loginRequired": "تسجيل الدخول مطلوب",
+  "journeyStartDesc":"رحلة الانابة تبدأ من هنا",
+  "moneebSaudiDesc": "منيب .. من مكة المكرمة",
+  "story": "قصة",
+  "theBest": "الأفضل",
+  "trustedPilgrims": "معتمرين موثوقين",
+  "ritualsDocumentation": "مناسك بتوثيق حقيقي",
+  "umrahTracking": "تتبع مناسك العمرة",
+  "trackLocation" : "تتبع الموقع",
+  "umrahForBeneficiary": "عمرة عن {beneficiary}",
+  "@umrahForBeneficiary": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "beneficiaryMartyr": "شهيد",
+  "beneficiarySick": "مريض",
+  "beneficiaryDeceased": "متوفى",
+  "beneficiaryHelpless": "عاجز",
+  "completedStatus": "تم التنفيذ",
+  "hijriMonth1": "المحرم",
+  "hijriMonth2": "صفر",
+  "hijriMonth3": "ربيع الأول",
+  "hijriMonth4": "ربيع الآخر",
+  "hijriMonth5": "جمادى الأولى",
+  "hijriMonth6": "جمادى الآخرة",
+  "hijriMonth7": "رجب",
+  "hijriMonth8": "شعبان",
+  "hijriMonth9": "رمضان",
+  "hijriMonth10": "شوال",
+  "hijriMonth11": "ذو القعدة",
+  "hijriMonth12": "ذو الحجة",
+  "inProgressStatus": "جاري التنفيذ",
+  "fajr": "الفجر",
+  "fajrPrayer": "صلاة الفجر",
+  "sunrise": "الشروق",
+  "dhuhr": "الظهر",
+  "dhuhrPrayer": "صلاة الظهر",
+  "asr": "العصر",
+  "asrPrayer": "صلاة العصر",
+  "maghrib": "المغرب",
+  "maghribPrayer": "صلاة المغرب",
+  "isha": "العشاء",
+  "ishaPrayer": "صلاة العشاء",
+  "prayerTimeAlert": "حان الآن موعد {prayerName}",
+  "@prayerTimeAlert": {
+    "placeholders": {
+      "prayerName": {
+        "type": "String"
+      }
+    }
+  },
+  "markAllAsRead": "تحديد الكل كمقروء",
+  "quranVerse": "( وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ )",
+  "ongoingOmrah": "العمرة الجارية..",
+  "reviewDetails": "تفاصيل التعليق",
+  "mutamerRating": "تقييم المعتمر",
+  "rateMutamerDesc": "يرجى تقييم المعتمر بناءً على تجربتك",
+  "userRoleName": "مستخدم",
+  "noComment": "لا يوجد تعليق",
+  "selectGender": "اختر النوع",
+  "pleaseSelectGender": "من فضلك اختر النوع",
+  "notReachedStatus": "لم يصل اليها",
+  "ihram": "الإحرام",
+  "miqat": "الميقات",
+  "mekatInstruction1Title": "الاغتسال والتطيب",
+  "mekatInstruction1Desc": "يُستحب للمسلم قبل الإحرام أن يغتسل ويتطيب.\n\n• الاغتسال سنة مؤكدة قبل الإحرام  \n• يتطيب الرجل في بدنه (وليس في ملابس الإحرام)  \n• المرأة تتجنب الطيب إذا كانت ستختلط بالرجال  \n\nالغرض من ذلك:\n• النظافة  \n• الاستعداد للدخول في النسك",
+  "mekatInstruction2Title": "لبس ملابس الإحرام",
+  "mekatInstruction2Desc": "كيفية لبس ملابس الإحرام:\n\nللرجال:\n• لبس إزار ورداء (قطعتين غير مخيطتين)  \n• عدم تغطية الرأس  \n• لبس نعلين (يفضل مفتوحة)  \n\n للنساء:\n• لبس ملابس عادية ساترة (بدون زينة)  \n• لا يشترط لون معين  \n• عدم لبس النقاب أو القفازين  \n\nملاحظات:\n• يجب أن تكون الملابس نظيفة  \n• يُمنع استخدام العطور بعد الإحرام",
+  "mekatInstruction3Title": "النية",
+  "mekatInstruction3Desc": "النية هي الدخول في النسك.\n\n• محلها القلب (ولا يشترط التلفظ بها)  \n• يستحب قول:\n\"لبيك اللهم عمرة\"  \n\nملاحظات:\n• تكون النية عند الوصول للميقات  \n• لا يصح الإحرام بدون نية",
+  "mekatInstruction4Title": "الميقات",
+  "mekatInstruction4Desc": "الميقات هو المكان الذي يجب الإحرام منه.\n\n• لا يجوز تجاوزه بدون إحرام لمن أراد العمرة  \n\nأشهر المواقيت:\n• ذو الحليفة (أهل المدينة)  \n• الجحفة (أهل الشام)  \n• قرن المنازل (أهل نجد)  \n• يلملم (أهل اليمن)  \n• ذات عرق (أهل العراق)  \n\nملاحظات:\n• من كان داخل حدود المواقيت يُحرم من مكانه  \n• من كان في الطائرة يُحرم عند محاذاة الميقات",
+  "mekatInstruction5Title": "التلبية",
+  "mekatInstruction5Desc": "يبدأ المعتمر بالتلبية بعد الإحرام مباشرة.\n\nنص التلبية:\n\"لبيك اللهم عمرة، لبيك لا شريك لك لبيك، إن الحمد والنعمة لك والملك، لا شريك لك\"\n\nمتى تُقال:\n• بعد النية مباشرة  \n• تُكرر أثناء الطريق إلى مكة  \n\nملاحظات:\n• يرفع الرجل صوته بها  \n• المرأة تقولها بصوت منخفض  \n• تستمر حتى بدء الطواف",
+  "tawaf": "الطواف",
+  "tawafInstruction1Title": "الدخول إلى المسجد الحرام",
+  "tawafInstruction1Desc": "عند دخول المسجد الحرام:\n\n• ادخل بالرجل اليمنى  \n• قل: \"بسم الله، اللهم صلِّ على محمد\"  \n• وقل: \"اللهم افتح لي أبواب رحمتك\"  \n\nملاحظات:\n• ادخل بسكينة وهدوء  \n• لا تزاحم الناس  \n• استحضر عظمة المكان",
+  "tawafInstruction2Title": "عند الحجر الأسود",
+  "tawafInstruction2Desc": "عند الوصول إلى الحجر الأسود:\n\n• إن تيسر: استلمه بيدك اليمنى وقبّله  \n• إن لم تستطع: المسه بيدك وقبّل يدك  \n• إن لم تستطع: أشر إليه بيدك وقل \"الله أكبر\"  \n\nملاحظات:\n• لا تؤذِ الآخرين بالمزاحمة  \n• الإشارة تكفي عند الزحام",
+  "tawafInstruction3Title": "الطواف حول الكعبة",
+  "tawafInstruction3Desc": "كيفية الطواف:\n\n• اجعل الكعبة عن يسارك  \n• ابدأ من الحجر الأسود  \n• طف 7 أشواط كاملة  \n\nملاحظات:\n• كل شوط يبدأ وينتهي عند الحجر الأسود  \n• يستحب الإسراع الخفيف (الرمل) للرجال في أول 3 أشواط  \n• المشي العادي في باقي الأشواط",
+  "tawafInstruction4Title": "الذكر والدعاء أثناء الطواف",
+  "tawafInstruction4Desc": "أثناء الطواف:\n\n• أكثر من الذكر والدعاء  \n• اقرأ ما تيسر من القرآن  \n\nيستحب بين الركن اليماني والحجر الأسود:\n\"ربنا آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار\"\n\nملاحظات:\n• لا يوجد دعاء محدد لكل شوط  \n• ادعُ بما شئت",
+  "tawafInstruction5Title": "صلاة ركعتين بعد الطواف",
+  "tawafInstruction5Desc": "بعد الانتهاء من الطواف:\n\n• صلِّ ركعتين خلف مقام إبراهيم إن تيسر  \n• وإن لم يتيسر، فصلِّ في أي مكان في المسجد  \n\nفي الركعتين:\n• اقرأ الفاتحة  \n• ويفضل قراءة:\n  - الكافرون في الأولى  \n  - الإخلاص في الثانية  \n\nملاحظات:\n• لا تزاحم الناس عند المقام",
+  "makamInstruction1Title": "التوجه إلى مقام إبراهيم",
+  "makamInstruction1Desc": "بعد الانتهاء من الطواف:\n\n• توجّه إلى مقام إبراهيم إن تيسر  \n• اجعل المقام بينك وبين الكعبة  \n\nقال الله تعالى:\n\"واتخذوا من مقام إبراهيم مصلى\"\n\nملاحظات:\n• لا يلزم الوقوف ملاصقًا للمقام  \n• يمكن الصلاة في أي مكان داخل المسجد",
+  "makamInstruction2Title": "صلاة ركعتين",
+  "makamInstruction2Desc": "صلِّ ركعتين بعد الطواف:\n\n• الركعة الأولى:\n  - الفاتحة  \n  - سورة الكافرون (يستحب)  \n\n• الركعة الثانية:\n  - الفاتحة  \n  - سورة الإخلاص (يستحب)  \n\nملاحظات:\n• الصلاة سنة مؤكدة بعد الطواف  \n• لا تزاحم الناس لأجل الصلاة عند المقام",
+  "makamInstruction3Title": "مكان الصلاة",
+  "makamInstruction3Desc": "مكان الصلاة:\n\n• الأفضل: خلف مقام إبراهيم  \n• إن لم يتيسر بسبب الزحام:\n  - صلِّ في أي مكان داخل المسجد الحرام  \n\nملاحظات:\n• تجنب الزحام الشديد  \n• الخشوع أولى من القرب",
+  "makamInstruction4Title": "بعد الصلاة",
+  "makamInstruction4Desc": "بعد الانتهاء من الركعتين:\n\n• اشرب من ماء زمزم إن تيسر  \n• ادعُ الله بما شئت  \n• استعد للذهاب إلى السعي بين الصفا والمروة  \n\nملاحظات:\n• ماء زمزم سنة وليس واجب  \n• يُستحب الإكثار من الدعاء",
+  "pleaseCompleteInstructions": "الرجاء إكمال باقي الإرشادات للمتابعة",
+  "pleaseReadInstructionsCarefully": "يرجى قراءة الإرشادات جيداً لتطبيق الطواف بشكل سليم",
+  "pleaseVerifyMapFirst": "الرجاء إكمال توثيق الخريطة أولاً",
+  "prayerBehindMakam": "الصلاة خلف مقام ابراهيم عليه السلام",
+  "makamIbrahim": "مقام ابراهيم",
+  "sai": "السعي بين الصفا والمروة",
+  "safaMarwaInstruction1Title": "التوجه إلى الصفا",
+  "safaMarwaInstruction1Desc": "بعد الانتهاء من الطواف وصلاة ركعتين:\n\n• توجّه إلى جبل الصفا لبدء السعي  \n• عند الاقتراب اقرأ:\n\"إن الصفا والمروة من شعائر الله\"\n\nملاحظات:\n• هذه الآية تُقال مرة واحدة عند بداية السعي",
+  "safaMarwaInstruction2Title": "الوقوف على الصفا",
+  "safaMarwaInstruction2Desc": "عند الصعود على الصفا:\n\n• استقبل الكعبة إن تيسر  \n• ارفع يديك وادعُ الله  \n\nيُستحب قول:\n\"الله أكبر، الله أكبر، الله أكبر  \nلا إله إلا الله وحده لا شريك له...\"\n\nملاحظات:\n• كرر الذكر والدعاء 3 مرات  \n• ادعُ بما شئت من خير الدنيا والآخرة",
+  "safaMarwaInstruction3Title": "السعي بين الصفا والمروة",
+  "safaMarwaInstruction3Desc": "ابدأ السعي من الصفا إلى المروة:\n\n• اجعل وجهتك نحو المروة  \n• عند العلامتين الخضراوين:\n  - يُسرع الرجال (هرولة خفيفة)  \n  - تمشي النساء بشكل عادي  \n\nملاحظات:\n• باقي المسافة مشي عادي  \n• أكثر من الذكر والدعاء",
+  "safaMarwaInstruction4Title": "عدد الأشواط",
+  "safaMarwaInstruction4Desc": "عدد أشواط السعي:\n\n• 7 أشواط كاملة  \n\nالطريقة:\n• من الصفا إلى المروة = شوط 1  \n• من المروة إلى الصفا = شوط 2  \n• وهكذا حتى تنتهي عند المروة  \n\nملاحظات:\n• البداية من الصفا  \n• النهاية عند المروة",
+  "safaMarwaInstruction5Title": "الدعاء أثناء السعي",
+  "safaMarwaInstruction5Desc": "أثناء السعي:\n\n• أكثر من الدعاء والذكر  \n• اقرأ ما تيسر من القرآن  \n\nملاحظات:\n• لا يوجد دعاء محدد لكل شوط  \n• ادعُ بما تحب",
+  "safaMarwaInstruction6Title": "بعد الانتهاء من السعي",
+  "safaMarwaInstruction6Desc": "بعد إتمام 7 أشواط:\n\n• تكون قد انتهيت من السعي  \n• تستعد للحلق أو التقصير  \n\nملاحظات:\n• السعي ركن من أركان العمرة  \n• لا تصح العمرة بدونه",
+  "saiMinimized": "السعي",
+  "tahalol": "التحلل",
+  "shaving": "الحلاقة",
+  "finishedUmrah": "أنتهاء العمرة",
+  "umrahTrackingFinishedStep": "الانتهاء",
+  "quranQuoteHome": "﴿مَنْ خَشِيَ الرَّحْمَنَ بِالْغَيْبِ وَجَاءَ بِقَلْبٍ مُنِيبٍ﴾",
+  "enterRequiredFields": "قم بإدخال الحقول المطلوبة",
+  "forWhomOmra": "لمن العمرة",
+  "beneficiaryCondition": "حال المعتمر له",
+  "beneficiaryGenderLabel": "جنس المعتمر له",
+  "requesterName": "مقدم الطلب",
+  "pleaseSelectOmraType": "يرجى تحديد نوع العمرة",
+  "beneficiaryNameHint": "أسم المعتمر له",
+  "pleaseEnterBeneficiaryName": "يرجى إدخال أسم المعتمر له",
+  "uploadImage": "رفع الصورة",
+  "deleteImage": "حذف الصورة",
+  "pleaseUploadBeneficiaryImage": "يرجى رفع صورة المعتمر له",
+  "writeYourNotes": "اكتب ملاحظاتك",
+  "requestDate": "تاريخ الطلب",
+  "pleaseSelectRequestDate": "يرجى تحديد تاريخ الطلب",
+  "assignUmrahProvider": "تخصيص مؤدي العمرة",
+  "errorOccurred": "حدث خطأ",
+  "submitOrderErrorDesc": "تأكد من إدخال جميع الحقول بشكل صحيح والمحاولة مرة أخرى",
+  "orderSubmittedSuccessfully": "تم تقديم الطلب بنجاح",
+  "continueText": "متابعة",
+  "confirmText": "تأكيد",
+  "pilgrims": "المعتمرين",
+  "martyr": "شهيد",
+  "sick": "مريض",
+  "deceased": "متوفى",
+  "helpless": "عاجز",
+  "omra": "عمرة",
+  "sendRequest": "إرسال طلب",
+  "shareProviderProfile": "تعرف على {name} (@{username}) - مقدم عمرة معتمد على منيب 🕋\n\nمنيب هي منصة متخصصة في العمرة بالنيابة، تتيح للمستخدمين طلب أداء العمرة عن المرضى والعاجزين والمتوفين والشهداء من خلال مقدمي عمرة معتمدين تم التحقق من بياناتهم واعتمادهم من قبل إدارة التطبيق.\n\nيوفر التطبيق تجربة موثوقة وشفافة تمكن طالب العمرة من متابعة جميع مراحل تنفيذ العمرة خطوة بخطوة، مع الاطلاع على التوثيق المرتبط بكل مرحلة من خلال الصور والفيديوهات والموقع المباشر أثناء التنفيذ.\n\nمنيب... تجربة موثقة وشفافة لمتابعة العمرة بالنيابة بكل ثقة واطمئنان.",
+  "@shareProviderProfile": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "username": { "type": "String" }
+    }
+  },
+  "repeatTheseAzkarWithHumilityAndSincerityToGod": "كرر هذه الأذكار واحفظ بالخشوع والنية الخالصة لله",
+  "toBeSaidAtLeast": "يُقال {count} مرة على الأقل",
+  "@toBeSaidAtLeast": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@-ORDERS-": {
+    "description": "---------------- ORDERS ----------------"
+  },
+  "underReview": "قيد المراجعة",
+  "profileChangesUnderReview": "طلبك قيد المراجعة",
+  "profileChangesUnderReviewDescription": "تم إرسال تعديلاتك بنجاح، وهي الآن قيد المراجعة من قِبل الإدارة.\nسيصلك إشعار فور الموافقة على التعديل أو رفضه.",
+  "umrahRequestAccepted": "تم قبول الطلب العمرة",
+  "umrahRequestRejected": "تم رفض طلب العمرة",
+  "orderDetails": "تفاصيل",
+  "umrahFor": "عمره عن {type}",
+  "serialNumber": "رقم التسلسلي",
+  "beneficiaryImage": "صورة المعتمر له",
+  "notes": "الملاحظات",
+  "pilgrimName": "أسم المعتمر",
+  "pilgrimImage": "صورة المعتمر",
+  "autoAssignPilgrim": "اختيار معتمر بشكل آلي",
+  "@-WALKTHROUGH-": {
+    "description": "---------------- WALKTHROUGH ----------------"
+  },
+  "firstPageTitleForUser": "--",
+  "firstPageDescriptionForUser": "----",
+  "secondPageTitleForUser": "--",
+  "secondPageDescriptionForUser": "----",
+  "thirdPageTitleForUser": "--",
+  "thirdPageDescriptionForUser": "----",
+  "firstPageTitle": "--",
+  "firstPageDescription": "----",
+  "secondPageTitle": "--",
+  "secondPageDescription": "----",
+  "thirdPageTitle": "--",
+  "thirdPageDescription": "----",
+  "@-MENU-": {
+    "description": "---------------- MENU ----------------"
+  },
+  "menu": "الاعدادات",
+  "light": "فاتح",
+  "dark": "داكن",
+  "useSystemSetting": "استخدام إعدادات النظام",
+  "@-CHAT-": {
+    "description": "-----------------------chat-----------------"
+  },
+  "deleting": "جارٍ الحذف",
+  "deleteChat": "حذف المحادثة",
+  "areYouSureYouWantToDeleteThisChat": "هل أنت متأكد أنك تريد حذف هذه المحادثة؟",
+  "chatDeletedSuccessfully": "تم حذف المحادثة بنجاح",
+  "chatCardName": "الدردشة",
+  "messageCardName": "الرسالة",
+  "anOffer": "عرض",
+  "you": "أنت",
+  "sendTo": "إرسال إلى",
+  "sendFailed": "فشل الإرسال",
+  "deletedMessage": "رسالة محذوفة",
+  "preparingChatRoom": "جارٍ تجهيز غرفة الدردشة ...",
+  "contactToExpert": "تواصل بالخبير",
+  "chatListTitle": "الرسائل",
+  "youSent": "لقد أرسلت",
+  "sent": "تم إرسال",
+  "clearChat": "مسح المحادثة",
+  "clearChatTitle": "مسح المحادثة!",
+  "muteNotification": "كتم الإشعارات",
+  "chatMutedSuccessfully": "تم كتم الدردشة بنجاح",
+  "chatUnMutedSuccessfully": "تم إلغاء كتم الدردشة بنجاح",
+  "viewProfile": "عرض ملف {firstName} الشخصي",
+  "@viewProfile": {
+    "placeholders": {
+      "firstName": {
+        "type": "String"
+      }
+    }
+  },
+  "clearChatDescription": "هل أنت متأكد أنك تريد مسح المحادثة مع {chatUserName}؟ إذا أكدت ذلك، فلن تتمكن من استعادة الرسائل مرة أخرى",
+  "@clearChatDescription": {
+    "placeholders": {
+      "chatUserName": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteChatDescription": "هل أنت متأكد أنك تريد حذف الدردشة مع {chatUserName}؟ إذا أكدت ذلك، فلن تتمكن من استعادة الرسائل مرة أخرى.",
+  "@deleteChatDescription": {
+    "placeholders": {
+      "chatUserName": {
+        "type": "String"
+      }
+    }
+  },
+  "caption": "تعليق",
+  "clearChatWithMessage": "مسح رسائل الدردشة من ناحيتك",
+  "message": "رسالة",
+  "unMute": "إلغاء الكتم",
+  "messageCopied": "تم نسخ الرسالة!",
+  "clearChatSuccess": "تم مسح الدردشة بنجاح",
+  "offline": "غير متصل",
+  "online": "متصل",
+  "isAvailable": "متاح",
+  "isNotAvailable": "غير متاح",
+  "offlineVisibilityWarning": "عندما تكون غير متاح فلن تظهر لطالبي العمرة",
+  "activeNow": "نشط الآن",
+  "activeSince": "نشط منذ",
+  "minuteSince": "دقيقة",
+  "hourSince": "ساعة",
+  "exitWarning": "هل أنت متأكد أنك تريد الخروج؟",
+  "exitWarningDescription": "إذا غادرت، ستُحذف هذه السجلات",
+  "couldNotFindTheReply": "لم يتم العثور على الرد، قد تكون الرسالة قد حُذفت",
+  "youHavenTAnyMessage": "ليس لديك أي رسالة بعد، ابدأ الدردشة",
+  "youHavenTAnyMessageYet": "ليس لديك أي رسائل حتى الآن",
+  "deleteText": "حذف",
+  "deleteMessage": "حذف الرسالة",
+  "areYouSureYouWantToDeleteThisMessage": "هل أنت متأكد أنك تريد حذف هذه الرسالة؟",
+  "youBlockedDec": "لقد قمت بحظر هذا المستخدم، لا يمكنكما التواصل مع بعضكما البعض ",
+  "language_settings": "إعدادات اللغة",
+  "change_password_settings": "تغيير كلمة المرور",
+  "orders_settings": "إعدادات الطلبات",
+  "my_rate_settings": "تقييماتي",
+  "verify_moneeb_settings": "توثيق منيب",
+  "policy_settings": "سياسة الخصوصية",
+  "terms_settings": "الشروط والأحكام",
+  "about_settings": "عن منيب",
+  "who_moneeb_settings": "من هو منيب؟",
+  "tazkiyah_settings": "التزكية",
+  "logout_settings": "تسجيل الخروج",
+  "delete_account_settings": "حذف الحساب",
+  "delete_account_dialog_title": "حذف الحساب",
+  "delete_account_dialog_desc": "هذا الإجراء لا يمكن التراجع عنه. سيتم تعطيل حسابك فوراً ويُحال طلبك للحذف النهائي إلى الإدارة.",
+  "delete_account_confirm_title": "تأكيد الحذف النهائي",
+  "delete_account_confirm_desc": "هل أنت متأكد تمامًا؟ لن تتمكن من الوصول إلى حسابك بعد هذا الإجراء.",
+  "delete_account_success": "تم تقديم طلب حذف الحساب بنجاح",
+  "account_will_be_deleted": "سيتم مراجعة طلبك وحذف الحساب نهائياً",
+  "i_understand_delete_my_account": "أنا أفهم وأوافق على حذف حسابي نهائياً وبشكل كامل",
+  "trusted_platform_badge": "منيب .. منصة سعودية موثوقة و تحمل سجل تجاري",
+  "follow_us": "تابعونا على صفحتنا!",
+  "social_media_description": "يسعدنا انضمامكم إلينا! تابعوا كل جديدنا عبر صفحتنا",
+  "app_version": "إصدار التطبيق",
+  "select_language": "اختر اللغة",
+  "select_your_language": "اختر لغتك المفضلة",
+  "homeNav": "الرئيسية",
+  "ordersNav": "الطلبات",
+  "requestOmraNav": "طلب عمرة",
+  "zadNav": "زاد",
+  "settingsNav": "الإعدادات",
+  "details": "التفاصيل",
+  "stories": "القصص",
+  "no_stories_available": "لا يوجد قصص الآن",
+  "banners": "العروض",
+  "no_banners_available": "لا توجد عروض حالياً",
+  "forgot_password": "نسيت كلمة المرور",
+  "email": "البريد الإلكتروني",
+  "registered_email": "البريد الإلكتروني المسجل",
+  "forgot_password_description": "أدخل بريدك الإلكتروني لتلقي رمز التحقق وإعادة تعيين كلمة المرور الخاصة بك.",
+  "please_enter_email": "يرجى إدخال البريد الإلكتروني",
+  "continue_label": "متابعة",
+  "verified_successfully": "تم التحقق بنجاح",
+  "code_resent_successfully": "تم إعادة إرسال الرمز بنجاح",
+  "enter_verification_code": "أدخل رمز التحقق",
+  "verify": "تحقق",
+  "didnt_receive_code": "لم يصلك الرمز؟ ",
+  "resend": "إعادة إرسال",
+  "password_updated_successfully": "تم تحديث كلمة المرور بنجاح",
+  "reset_password": "إعادة تعيين كلمة المرور",
+  "set_new_password": "تعيين كلمة مرور جديدة",
+  "reset_password_instruction": "يرجى إدخال كلمة مرور جديدة قوية.",
+  "new_password": "كلمة المرور الجديدة",
+  "password_too_short": "كلمة المرور قصيرة جداً (8 أحرف على الأقل)",
+  "confirm_password": "تأكيد كلمة المرور",
+  "passwords_do_not_match": "كلمات المرور غير متطابقة",
+  "update_password": "تحديث كلمة المرور",
+  "profile": "البروفايل",
+  "yourRating": "تقييمك",
+  "hisRating": "تقييمه",
+  "myRating": "تقييمي",
+  "myUmrahsExecuted": "عمرات نفذتها",
+  "hisUmrahsExecuted": "عمرات نفذها",
+  "providerImage": "صورة المعتمر",
+  "yourProviderImage": "صورتك كمعتمر",
+  "providerVideo": "فيديو المعتمر",
+  "yourProviderVideo": "فيديو كمعتمر",
+  "reviews": "التقييمات",
+  "noReviewsYet": "لا توجد تقييمات حتى الآن",
+  "loadingReview": "جاري تحميل التقييم...",
+  "accountInfo": "معلومات الحساب",
+  "name": "الاسم",
+  "enterName": "أدخل الاسم",
+  "enterEmail": "أدخل البريد الالكتروني",
+  "phone": "رقم الجوال",
+  "enterPhone": "أدخل رقم الجوال",
+  "selectCountry": "اختر الدولة",
+  "gender": "النوع",
+  "providerInfo": "معلومات مقدم الخدمة",
+  "idNumber": "رقم الهوية / الإقامة",
+  "enterIdNumber": "أدخل رقم الهوية أو الإقامة",
+  "previousUmrahCount": "عدد العمرات السابقة",
+  "enterPreviousUmrahCount": "أدخل عدد العمرات التي أديتها",
+  "bio": "نبذة عنك",
+  "bioHint": "اكتب نبذة مختصرة تظهر للمعتمرين",
+  "isQuranHafiz": "حافظ للقرآن الكريم",
+  "updatedSuccessfully": "تم التحديث بنجاح",
+  "saveChanges": "حفظ التعديلات",
+  "editProfile": "تعديل الحساب",
+  "omrahStepMeqat": "الميقات",
+  "omrahStepTawaf": " الطواف",
+  "omrahStepPrayingBehindMakam": "الصلاة خلف مقام ابراهيم عليه السلام",
+  "omrahStepMakamIbrahim": "مقام ابراهيم",
+  "omrahStepSafaAndMarwa": "السعي بين الصفا و المروه",
+  "omrahStepSafaAndMarwaShort": "السعي",
+  "omrahStepTahalol": "التحلل",
+  "omrahStepFinishOmrah": "أنتهاء العمرة",
+  "finish": "انهاء",
+  "phaseOne": "المرحلة الإولى",
+  "phaseTwo": "المرحلة الثانية",
+  "tawafInstructions": "إرشادات الطواف",
+  "documentationTitle": "التوثيق",
+  "tawafVerifyInsideHaram": "توثيق انك داخل الحرم",
+  "tawafVerifyDuaa": "توثيق فيديو تلبية الدعاء لصاحب العمره",
+  "phaseThree": "المرحلة الثالثة",
+  "makamInstructions": "إرشادات المقام الإبراهيمي",
+  "makamInstructionDesc": "يرجي قراءة الارشادات جيدا لتطبيق صلاة المقام الإبراهيمي بشكل السليم",
+  "makamVerifyFirst": "توثيق صلاة المقام الإبراهيمي",
+  "makamVerifyImage": "صورة للمكان من الخلف أو للقبّة الزجاجية للمقام.",
+  "phaseFour": "المرحلة الرابعة",
+  "safaMarwaInstructions": "السعي بين الصفا والمروة",
+  "safaMarwaInstructionDesc": "يرجي قراءة الارشادات جيدا لتطبيق السعي بين الصفا والمروة بشكل السليم",
+  "safaMarwaVerifyFirst": "توثيق فيديو في الوقف علي جبل الصفا",
+  "safaMarwaVerifyMap": "تتبع علي الخريطه ل سبع أشواط",
+  "safaMarwaVerifyInsideMasaa": "توثيق انك داخل المسعى بين الصفا والمروة",
+  "mekatInstructions": "إرشادات الإحرام",
+  "mekatInstructionDesc": "يرجي قراءة الارشادات جيدا لتطبيق الاحرام بشكل السليم",
+  "mekatVerifyFirst": "التوثيق الاول عن طريق الجوجل ماب لتحديد الميقات",
+  "mekatVerifySecond": "التوثيق التاني عن طريق الفيديو",
+  "phaseFive": "المرحلة الخامسة",
+  "tahalolVideo": "فيديو",
+  "tahalolVerifyVideo": "يرجي أختيار فيديو او صورة للتحلل",
+  "tahalolVerifyTitle": "توثيق التحلل",
+  "tahalolVerifyImageDesc": "صورة للتحلل",
+  "tahalolVerifyVideoDesc": "فيديو للتحلل",
+  "omrahJourneyFinishPrefix": "أنتهاء رحلة ",
+  "omrahRituals": "مناسك العمرة",
+  "providerStillDoingStep": "المزود ما زال يقوم بهذه الخطوة",
+  "trackProviderOnMap": "تتبع مكانه علي الخريطة",
+  "videoSavedSuccessfully": "تم حفظ الفيديو في المعرض بنجاح",
+  "videoSaveFailed": "فشل في حفظ الفيديو",
+  "omrahVideoTitle": "فيديو العمرة",
+  "videoShareFailed": "فشل في مشاركة الفيديو",
+  "waitProviderLocation": "برجاء الانتظار قليلا الي ان يرسل المعتمر موقعه",
+  "loadingRoute": "جاري تحميل المسار...",
+  "noRouteRecorded": "لم يتم تسجيل مسار لهذه العمرة",
+  "grantPermission": "اعطاء الاذن",
+  "readGuideConfirm": "يرجى قراءة محتوى الدليل والالتزام اضغط \"تأكيد\"",
+  "verifyVideoInsideMosque": "توثيق الفيديو عند دخول المسجد الحرام",
+  "prayDuaaTakbeer": "لا تنس التكبير والدعاء لمن نويت له بالعمرة",
+  "imageTranslate": "صورة",
+  "verifyImageTitle": "توثيق صوره",
+  "pickFromGallery": "Pick from gallery",
+  "omrahVerifyStep": "توثيق {stepName}",
+  "@omrahVerifyStep": {
+    "description": "Verification step title",
+    "placeholders": {
+      "stepName": {
+        "type": "String"
+      }
+    }
+  },
+  "notReachedYet": "لم يصل اليها",
+  "executedSuccessfully": "تم التنفيذ",
+  "inProgress": "قيد التنفيذ",
+  "videoProofUploadedSuccessfully": "Video proof uploaded successfully",
+  "ritualsList": "المناسك",
+  "finishOmrah": "انهاء العمرة",
+  "didYouFinishOmrah": "هل انهيت العمره ؟",
+  "yesIFinishedOmrah": "نعم لقد اديت العمرة",
+  "noNotYet": "لا, ليس بعد",
+  "ordersHeader": "الطلبات",
+  "noOrdersMessage": "لا توجد طلبات",
+  "orderStatusWaiting": "في الانتظار",
+  "orderStatusAcceptReject": "قبول /رفض",
+  "orderStatusApproved": "الموافق عليه",
+  "orderStatusRejected": "المرفوض",
+  "orderStatusExecuting": "قيد التنفيذ",
+  "orderStatusCompleted": "المكتمل",
+  "orderStatusCanceled": "الملغي",
+  "orderStatusUnderReview": "قيد المراجعة",
+  "orderStatusAssigned": "تم التكليف",
+  "orderStatusAccepted": "تم القبول",
+  "orderStatusRefused": "مرفوض",
+  "orderStatusCompletedFemale": "مكتملة",
+  "orderStatusCanceledFemale": "ملغية",
+  "cancelOrderBtn": "الغاء الطلب",
+  "rejectBtn": "رفض",
+  "omrahForBeneficiary": "عمره عن {name}",
+  "@omrahForBeneficiary": {
+    "description": "Umrah for beneficiary message",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "orderNumber": "رقم الطلب",
+  "continueOmrah": "متابعه العمره",
+  "viewOmrah": "عرض العمره",
+  "orderCanceledSuccess": "تم الغاء الطلب بنجاح",
+  "mapTitle": "الخريطه",
+  "findNearestMeqat": "تحديد أقرب ميقات",
+  "verifyYourLocation": "توثيق موقعك",
+  "yesAuth": "نعم",
+  "noAuth": "لا",
+  "someParts": "بعض الاجزاء",
+  "emailHint": "البريد الالكتروني",
+  "createAccount": "انشاء حساب",
+  "mutamerName": "اسم المعتمر",
+  "mobileNumberHint": "رقم الجوال",
+  "countryHint": "الدولة",
+  "searchHint": "ابحث",
+  "passwordHint": "كلمة المرور",
+  "confirmPasswordHint": "تأكيد كلمة المرور",
+  "pleaseConfirmPassword": "يرجى تأكيد كلمة المرور",
+  "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+  "registerBtn": "تسجيل",
+  "welcomeAuth": "أهلاً بك",
+  "loginToViewOrdersDesc": "سجّل دخولك لعرض طلبات أصحاب العمرة وأداء العمرة عنهم بكل ثقة وأمان.",
+  "orAuth": "أو",
+  "haveAccount": "لديك حساب ؟",
+  "dontHaveAccount": "ليس لديك حساب ؟",
+  "loginBtn": "تسجيل دخول",
+  "pleaseSelectType": "من فضلك اختار النوع",
+  "nameHint": "الاسم",
+  "chooseType": "أختار النوع",
+  "nextAuth": "التالى",
+  "loginToViewMutamersDesc": "سجل دخولك لعرض المعتمرين وطلب عمرة",
+  "createAccountAlt": "إنشاء حساب",
+  "welcomeToMoneeb": "أهلاً بك في منيب",
+  "omrahForYouOrLovedOne": "عمرةٌ عنك او عمّن تحب ... الى بيت الله",
+  "docTrackComply": "توثيق • تتبّع • امتثال",
+  "continueBtn": "الاستمرار",
+  "verification": "التوثيق",
+  "veiwVerification": "مشاهدة التوثيق",
+  "continueAsGuest": "الاستمرار كضيف",
+  "chooseAccountType": "اختر نوع حسابك",
+  "selectServiceToContinue": "قم بتحديد الخدمة المطلوبة للإستمرار في عملية التسجيل",
+  "requestOmrahTitle": "طلب عمرة",
+  "providerServiceTitle": "مقدم خدمة الإنابة",
+  "startBtnAuth": "بدأ",
+  "completeProfileTitle": "اكمال الملف الشخصى",
+  "logoutString": "تسجيل الخروج",
+  "doYouWantToLogout": "هل تريد تسجيل الخروج؟",
+  "cancelString": "إلغاء",
+  "createMutamerProfile": "أنشىء بروفايل المعتمر",
+  "enterDataToCompleteProfile": "قم بإدخال البيانات الاتية لاكمال اعداد حسابك",
+  "uploadImageTitle": "رفع الصورة",
+  "yourBioHint": "سيرة الذاتية الخاصة بك",
+  "timesPerformedOmrah": "عدد المرات أديت العمرة",
+  "uploadIdImage": "رفع صورة الهوية",
+  "idNumberHint": "رقم الهوية",
+  "continueAuth": "استمرار",
+  "oneStepLeft": "تبقى خطوة واحدة",
+  "uploadTrustedCertificates": "أرفع بعض الشهادات لك من جهات موثوقه",
+  "certificateName": "أسم الشهادة",
+  "backBtn": "رجوع",
+  "finishBtnAuth": "انهاء",
+  "kasamTitle": "القسم",
+  "agreeAndPledge": "أوافق وأتعهد بما ورد أعلاه",
+  "iSwearThat": "اقسم على ذلك",
+  "thankYouFor": "شكرًا لك على ",
+  "creatingYourAccount": "إنشاء حسابك",
+  "orderReceivedSuccessfully": "تم استلام طلبك بنجاح،\nوسيتم مراجعته من قبل إدارة التطبيق خلال وقت قصير.",
+  "returnToHome": "العودة للرئيسية",
+  "loginTitleBtn": "تسجيل الدخول",
+  "forgotPassword": "نسيت كلمة المرور؟",
+  "tazkiyahSuccess": "تمت التزكية بنجاح",
+  "tazkiyahAlreadySubmitted": "لقد قمت بتزكية هذا الشخص مسبقاً",
+  "noTazkiyahsYet": "لم تقم بأي تزكية بعد",
+  "previousTazkiyahs": "التزكيات السابقة",
+  "tazkiyahTitle": "التزكيه",
+  "tazkiyahDesc": "نُزكي هذا الشخص ونشهد له بالأمانة وحسن الخلق والالتزام، وهو محل ثقة بإذن الله.",
+  "changeTazkiyah": "تغيير",
+  "tazkiyahReasons": "أسباب التزكية",
+  "pleaseEnterTazkiyahReason": "الرجاء إدخال سبب التزكية",
+  "oathText": "أشهد، بحسب معرفتي الشخصية بالمتقدم، أنني أعرف عنه الأمانة وحسن السيرة، وأراه أهلاً لتحمل مسؤولية أداء العمرة عن الغير والالتزام بمتطلبات التوثيق المعتمدة لدى منصة منيب. وأقر بأن هذه الإفادة مبنية على معرفة حقيقية وليست مقابل منفعة مالية أو مصلحة شخصية.\n\nعزّز طلب انضمامك بالتزكية\nيمكن للمؤدين المعتمدين لدى منيب ممن يعرفونك معرفة شخصية تزكية أهليتك وأمانتك.\nتساعد التزكيات فريق منيب في تقييم طلبك، لكنها لا تعني القبول التلقائي؛ إذ يخضع كل طلب للمراجعة والتحقق وفق معايير المنصة.",
+  "reviewSentSuccessfully": "تم ارسال التقييم بنجاح",
+  "evaluateOmrah": "تقييم العمرة",
+  "addYourCommentHere": "أضف تعليقك هنا...",
+  "confirmEvaluation": "تأكيد التقييم",
+  "omrahCompletedSuccessfully": "تم انهاء العمره بنجاح",
+  "omrahWord": "العمرة",
+  "afterSpiritualJourneyDesc": "بعد هذه الرحلة الروحية العميقة، نرجو أن يكون قلبك أكثر صفاءً، وأن تجد في كل خطوة قمت بها في مكة بركة ورحمة. تقبل الله منك وأحسن إليك",
+  "locationNotValidForMiqat": "الموقع غير صالح للميقات",
+  "locationNotValidForTawaf": "الموقع غير صالح للطواف",
+  "locationNotValidForSai": "الموقع غير صالح للسعي",
+  "locationProofed": "تم التحقق من الموقع",
+  "grantLocationPermissionPlease": "برجاء اعطاء الاذن للموقع",
+  "grantLocationDesc": "برجاء اعطاء الاذن لاستخدام الموقع حتي يتمكن صاحب الطلب من تتبع العمره",
+  "noVideoFound": "لا يوجد فيديو",
+  "videoSavedToGallerySuccess": "تم حفظ الفيديو في المعرض بنجاح",
+  "failedToSaveVideo": "فشل في حفظ الفيديو",
+  "omrahVideoUrlShare": "فيديو العمرة",
+  "failedToShareVideo": "فشل في مشاركة الفيديو",
+  "imageSavedToGallerySuccess": "تم حفظ الصورة في المعرض بنجاح",
+  "failedToSaveImage": "فشل في حفظ الصورة",
+  "omrahImageUrlShare": "صورة العمرة",
+  "failedToShareImage": "فشل في مشاركة الصورة",
+  "proofAlreadySubmitted": "لقد قمت بإرسال إثباتك بالفعل",
+  "omrahConclusion": "الخاتمة",
+  "endOfJourney": "انتهاء مرحلة ",
+  "omrahCompletionConfirmed": "قام المعتمر بتأكيد انتهائه من اداء العمرة",
+  "omrahCompletionConfirmedFor": "قام المعتمر بتأكيد انتهائه من اداء العمرة عن",
+  "omrahAcceptedSupplication": "تقبل الله منا ومنكم صالح الأعمال",
+  "evaluate": "تقييم",
+  "omrahRequestReassignHintForUser" : "في حال عدم قبول طلبك خلال 12 ساعة، سيتم تحويله تلقائيًا إلى مزوّد آخر.",
+  "omrahRequestReassignHintForProvider" : "يرجى قبول الطلبات خلال 12 ساعة، وإلا سيتم تحويله إلى مزوّد آخر.",
+  "meeqatVideoDocumentation": "توثيق فيديو الميقات",
+  "tawafVideoDocumentation": "توثيق مرحلة بدء الطواف",
+  "saiVideoDocumentation": "توثيق فيديو مرحلة السعي",
+  "ibrahimMakamPrayerVideo": "فيديو صلاة المقام الابراهيمي",
+  "tahalulVideoDocumentation": "توثيق فيديو التحلل",
+  "stepDocumentedSuccessfully": "تم توثيق المرحلة بنجاح",
+  "nextStepIs": "المرحله التالية هي {nextStep}",
+  "@nextStepIs": {
+    "placeholders": {
+      "nextStep": {
+        "type": "String"
+      }
+    }
+  },
+  "nextStep": "المرحلة التالية",
+  "back": "رجوع",
+  "video": "فيديو",
+  "tapToCaptureImage": "اضغط لالتقاط صورة",
+  "cantUploadEmptyFile": "لا يمكن رفع ملف فارغ، تأكد من رفع ملف صالح",
+  "imageCompressFailed": "فشل في ضغط الصورة",
+  "invalidPhoneNumber": "رقم الهاتف غير صالح",
+  "sharedPost": "منشور تمت مشاركته",
+  "couldNotDownloadFile": "لم نتمكن من تنزيل الملف",
+  "couldNotFetchLocation": "لم نتمكن من جلب الموقع",
+  "imageProofUploadedSuccessfully": "تم رفع إثبات الصورة بنجاح",
+  "emailOrPhoneHint": "البريد الإلكتروني أو رقم الجوال",
+  "emptyEmailOrPhoneError": "يرجى إدخال البريد الإلكتروني أو رقم الجوال.",
+  "invalidSaudiPhoneError": "رقم جوال غير صالح. يجب أن يبدأ بـ 05 أو 5 ويتكون من 9 أو 10 أرقام.",
+  "invalidSaudiPhonePrefixError": "رقم الجوال يجب أن يبدأ بـ 05 أو 5",
+  "saudiPhoneNineDigitsError": "رقم الجوال يجب أن يتكون من 9 أرقام",
+  "saudiPhoneTenDigitsError": "رقم الجوال يجب أن يتكون من 10 أرقام",
+  "emailOrPhoneFieldError": "يرجى إدخال بريد إلكتروني صالح أو رقم جوال .",
+  "homeLive" :"بث مباشر",
+  "@-OtpAuth-": {
+    "description": "---------------- OTP Auth ----------------"
+  },
+  "emailTabLabel": "البريد الإلكتروني",
+  "phoneTabLabel": "الجوال",
+  "loginWithOtpDesc": "أدخل بريدك الإلكتروني أو رقم جوالك لاستلام رمز التحقق.",
+  "registerAsServiceProvider": "التسجيل كمقدّم خدمة",
+  "chooseVerificationMethod": "اختر طريقة التحقق",
+  "chooseVerificationMethodDesc": "اختر الطريقة التي تريد استلام الرمز بها.",
+  "otpChannelWhatsapp": "واتساب",
+  "otpChannelSms": "رسالة نصية",
+  "otpChannelCall": "مكالمة هاتفية",
+  "otpChannelEmail": "البريد الإلكتروني",
+  "verificationTitle": "التحقق",
+  "codeSentTo": "أرسلنا رمز التحقق إلى",
+  "changeVerificationMethod": "تغيير طريقة التحقق",
+  "providerIdentityDesc": "تحقق من بريدك الإلكتروني أو رقم جوالك للتسجيل كمقدّم خدمة.",
+  "passwordOptionalHint": "كلمة المرور",
+  "providerNotFound": "لم يتم العثور على مقدّم خدمة بهذه البيانات",
+  "searchByEmailOrPhone": "ابحث عن مقدّم الخدمة بالبريد الإلكتروني أو رقم الجوال",
+  "@-OrderCertificate-": {
+    "description": "---------------- Order Certificate ----------------"
+  },
+  "omrahCertificate": "شهادة أداء العمرة",
+  "myCertificates": "شهاداتي",
+  "generateCertificate": "إنشاء الشهادة",
+  "viewCertificate": "عرض الشهادة",
+  "generatingCertificate": "جارٍ تجهيز الشهادة…",
+  "certificateGeneratedSuccessfully": "تم إنشاء الشهادة بنجاح",
+  "certificateHintForProvider": "أنشئ شهادة تُثبت أداء العمرة، ثم حمّلها أو شاركها مع صاحب الطلب.",
+  "certificateHintForUser": "أنشئ شهادة تُثبت أداء العمرة، ثم حمّلها أو شاركها مع من تحب.",
+  "loadingCertificate": "جارٍ تحميل الشهادة…",
+  "certificatePreviewUnavailable": "تعذّر عرض الشهادة، ويمكنك مشاركتها كملف PDF.",
+  "certificateSavedToGallery": "تم حفظ الشهادة في معرض الصور",
+  "failedToSaveCertificate": "تعذّر حفظ الشهادة",
+  "failedToShareCertificate": "تعذّرت مشاركة الشهادة",
+  "certificateShareMessage": "شهادة أداء العمرة عن {name}",
+  "@certificateShareMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "certificatePageIndicator": "صفحة {current} من {total}",
+  "@certificatePageIndicator": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "charterPageTitle": "ميثاق الأمانة والقَسَم",
+  "charterHeaderTitle": "ميثاق الأمانة والقَسَم",
+  "charterHeaderSubtitle": "اقرأ الميثاق كاملًا، فلا تُفعَّل الموافقة إلا بعد الوصول إلى نهايته.",
+  "charterNoticeTitle": "تنبيه قبل المتابعة",
+  "charterNoticeBody": "يتضمن هذا الميثاق قسمًا بالله العظيم وتعهدًا ملزمًا؛ لذا يجب قراءته كاملًا، ولا يجوز الموافقة عليه إلا بعد فهم جميع ما ورد فيه والقدرة على الالتزام به.",
+  "charterSectionLabel": "البند {index} من {total}",
+  "@charterSectionLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "charterS1Title": "أولًا: صحة البيانات والأهلية",
+  "charterS1Intro": "أقر بما يلي:",
+  "charterS1I1": "أن جميع البيانات والمستندات التي قدمتها صحيحة وكاملة وتخصني شخصيًا.",
+  "charterS1I2": "أنني لم أستخدم بيانات شخص آخر، ولم أسمح لغيري بالتسجيل أو استخدام الحساب نيابةً عني.",
+  "charterS1I3": "أنني سبق أن أديت العمرة عن نفسي.",
+  "charterS1I4": "أنني قادر صحيًا وبدنيًا على أداء مناسك العمرة كاملة.",
+  "charterS1I5": "أنني سأحدّث بياناتي فور حدوث أي تغيير يؤثر في أهليتي لأداء العمرة.",
+  "charterS1I6": "أنني سأفصح لمنيب عن أي مانع صحي أو نظامي أو شرعي قد يؤثر في قدرتي على تنفيذ الطلبات.",
+  "charterS2Title": "ثانيًا: نزاهة التزكيات",
+  "charterS2Intro": "أقر وأتعهد بما يلي:",
+  "charterS2I1": "ألا أطلب تزكية إلا ممن يعرفني معرفة شخصية حقيقية.",
+  "charterS2I2": "ألا أطلب أو أرتب أي تزكية صورية أو غير صحيحة.",
+  "charterS2I3": "ألا أستخدم بيانات أي مؤدٍّ معتمد للحصول على تزكية دون علمه وموافقته.",
+  "charterS2I4": "أنني مسؤول عن صحة ما أقدمه، ولا تعفيني التزكيات من المسؤولية ولا تضمن قبول طلبي.",
+  "charterS2I5": "أن لمنيب حق التحقق من التزكيات واستبعاد أي تزكية لا تستوفي معايير المنصة.",
+  "charterS3Title": "ثالثًا: أداء العمرة",
+  "charterS3Intro": "إذا قُبلت مؤديًا لدى منيب، فإنني أتعهد بما يلي:",
+  "charterS3I1": "ألا أقبل أي طلب إلا إذا كنت قادرًا على تنفيذه كاملًا في الوقت المحدد.",
+  "charterS3I2": "أن أؤدي العمرة بنفسي عن الشخص المحدد في الطلب، وألا أعهد بها إلى شخص آخر.",
+  "charterS3I3": "أن أنوي العمرة عن المؤدّى عنه المحدد في الطلب، وألا أغيّر الشخص أو أجمع أكثر من طلب في عمرة واحدة.",
+  "charterS3I4": "أن أُحرم من الميقات المعتبر، ثم أؤدي الطواف والسعي والحلق أو التقصير حتى اكتمال العمرة والتحلل منها.",
+  "charterS3I5": "أن ألتزم بالأحكام الشرعية المتعلقة بعمرة البدل، وبالتعليمات التشغيلية المعتمدة لدى منيب.",
+  "charterS3I6": "ألا أؤكد تنفيذ أي مرحلة قبل أدائها فعليًا.",
+  "charterS3I7": "أن أتوقف عن التنفيذ وأبلغ منيب فورًا إذا طرأ ما يمنعني من إكمال العمرة، وألا أقرر اكتمالها وهي غير مكتملة.",
+  "charterS4Title": "رابعًا: التوثيق والتحقق",
+  "charterS4Intro": "أتعهد بأن يكون توثيق العمرة حقيقيًا ومعاصرًا لأدائها، وذلك على النحو الآتي:",
+  "charterS4I1": "أوثّق المراحل المطلوبة من داخل تطبيق منيب حصرًا، ومن مواقعها الفعلية وفي أوقاتها الحقيقية.",
+  "charterS4I2": "ألتزم بتوثيق الإحرام والطواف والسعي والتحلل وفق التعليمات الظاهرة في التطبيق.",
+  "charterS4I3": "أذكر بيانات المؤدّى عنه في المواضع التي تطلبها المنصة لإثبات تخصيص العمرة له.",
+  "charterS4I4": "لا أستخدم تسجيلات سابقة أو صورًا أو مقاطع تخص عمرة أخرى أو شخصًا آخر.",
+  "charterS4I5": "لا أعدّل التوثيق أو أزوّره أو أعيد تمثيل أي مرحلة بعد انتهائها على أنها توثيق مباشر.",
+  "charterS4I6": "لا أسمح لشخص آخر بحمل جهازي أو استخدام حسابي لتنفيذ التوثيق نيابةً عني.",
+  "charterS4I7": "لا أستخدم أي وسيلة للتحايل على الموقع الجغرافي أو الوقت أو الكاميرا أو أنظمة التحقق داخل التطبيق.",
+  "charterS4I8": "أوافق على استخدام الموقع الجغرافي والوقت والكاميرا داخل التطبيق للتحقق من مراحل العمرة أثناء تنفيذ الطلب.",
+  "charterS5Title": "خامسًا: الخصوصية والسلوك",
+  "charterS5Intro": "أتعهد بما يلي:",
+  "charterS5I1": "المحافظة على سرية بيانات طالب العمرة والمؤدّى عنه، وعدم استخدامها أو مشاركتها خارج غرض تنفيذ الطلب.",
+  "charterS5I2": "احترام حرمة المسجد الحرام وخصوصية المعتمرين، وألا يكون التوثيق سببًا في إيذاء الآخرين أو تعطيلهم.",
+  "charterS5I3": "الالتزام بالأنظمة والتعليمات الصادرة عن الجهات المختصة داخل المملكة العربية السعودية.",
+  "charterS5I4": "التواصل بأمانة واحترام مع منيب، والإجابة بصدق عن أي استفسار يتعلق بالتنفيذ أو التوثيق.",
+  "charterS6Title": "سادسًا: المسؤولية والإجراءات",
+  "charterS6Intro": "أقر بأن:",
+  "charterS6I1": "تقديم طلب التسجيل أو الحصول على تزكيات لا يعني قبولي تلقائيًا كمؤدي عمرة.",
+  "charterS6I2": "لمنيب حق التحقق من بياناتي ومستنداتي وتزكياتي وسجل تنفيذ الطلبات.",
+  "charterS6I3": "أي بيانات غير صحيحة أو توثيق مزيف أو تحايل أو تنفيذ بواسطة شخص آخر يُعد مخالفة جوهرية.",
+  "charterS6I4": "يحق لمنيب عند ثبوت المخالفة رفض الطلب أو تعليق الحساب أو إلغاؤه، واتخاذ الإجراءات المنصوص عليها في شروط الاستخدام والاتفاقية.",
+  "charterS6I5": "لا أستحق المقابل المالي عن أي عمرة لم أنفذها كاملة، أو ثبت عدم صحة تنفيذها أو توثيقها.",
+  "charterS6I6": "أتحمل المسؤولية النظامية عن أي تزوير أو احتيال أو إساءة استخدام، مع حق منيب في إحالة المخالفة إلى الجهة المختصة متى استوجب الأمر ذلك.",
+  "charterOathTitle": "القَسَم",
+  "charterOathBody": "أقسم بالله العظيم أن جميع البيانات والمستندات والإقرارات التي قدمتها صحيحة، وأنني سبق أن أديت العمرة عن نفسي، وأنني إذا قُبلت مؤديًا لدى منصة منيب فسأؤدي كل عمرة أقبلها بنفسي، عن الشخص المحدد في الطلب، وسأتم مناسكها كاملة حتى التحلل، وأوثق مراحلها توثيقًا حقيقيًا من مواقعها الفعلية وفي أوقاتها الصحيحة، دون كذب أو تزوير أو تحايل أو استبدال أو إنابة شخص آخر، وأن ألتزم بجميع ما ورد في هذا الميثاق. والله على ما أقول شهيد.",
+  "charterEndOfDocument": "نهاية الميثاق",
+  "charterScrollHint": "اسحب لأسفل لقراءة بقية البنود",
+  "charterReadPercent": "{percent}٪",
+  "@charterReadPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "charterAgreeCheckbox": "أقر بأنني قرأت جميع بنود الميثاق وفهمتها وأوافق عليها",
+  "charterSwearButton": "أقسم بالله على ذلك",
+  "charterGoToEnd": "الانتقال إلى نهاية الميثاق",
+  "proofGeoFenceVerified": "تم التحقق من وجود المعتمر داخل النطاق الجغرافي",
+  "omrahAlreadyRated": "تم تقييم هذه العمرة",
+  "omrahRatingOnceOnly": "التقييم متاح مرة واحدة فقط لكل عمرة",
+  "proofCapturedInsideAppOnly": "هذا التوثيق قام بتصويره المعتمر حصراً ومباشرةً من داخل التطبيق",
+  "@-OMRAH-VOICE-DOCUMENTATION-": {
+    "description": "---------------- OMRAH VOICE DOCUMENTATION ----------------"
+  },
+  "voiceDocumentationTitle": "عبارة التوثيق الصوتي",
+  "voiceDocumentationHintMiqat": "مع تسجيل الفيديو يمكنك ذكر التوثيق التالي",
+  "voiceDocumentationHintTawaf": "أذكر العبارة التالية عند تسجيلك للفيديو",
+  "voiceDocumentationHintSai": "مع تسجيل الفيديو اذكر العبارة التالية",
+  "voiceDocumentationHintTahalol": "اذكر العبارة التالية عند تسجيل فيديو التحلل",
+  "voiceDocumentationActionMiqat": "عند الميقات وعند الإحرام، قل:",
+  "voiceDocumentationActionTawaf": "قبل بدء الطواف، قل:",
+  "voiceDocumentationActionSai": "عند الوقوف على الصفا وقبل بدء السعي، قل:",
+  "voiceDocumentationActionTahalol": "صوّر فعل التقصير",
+  "voiceDocumentationPhraseMiqat": "لبيك اللهم لبيك عمرة عن {beneficiary}",
+  "@voiceDocumentationPhraseMiqat": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceDocumentationPhraseTawaf": "توثيق بداية طواف العمرة عن {beneficiary} بسم الله الله أكبر",
+  "@voiceDocumentationPhraseTawaf": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceDocumentationPhraseSai": "توثيق سعي عمرة عن {beneficiary}",
+  "@voiceDocumentationPhraseSai": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceDocumentationPhraseTahalol": "تم التقصير، وبه تمت العمرة عن {beneficiary}",
+  "@voiceDocumentationPhraseTahalol": {
+    "placeholders": {
+      "beneficiary": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceDocumentationNoteTawaf": "ثم التكبير عند محاذاة الحجر الأسود.",
+  "stepProofRejected": "رفضت الإدارة إثبات هذه المرحلة",
+  "rejectionReason": "سبب الرفض",
+  "reuploadStepProofHint": "يرجى توثيق هذه المرحلة ورفع الإثبات مرة أخرى.",
+  "proofRejectedStatus": "تم رفض الإثبات",
+  "omrahStartsIn": "تبدأ المناسك بعد",
+  "omrahStartsInUser": "باقي على بدء مناسك العمرة",
+  "countdownDays": "يوم",
+  "countdownHours": "ساعة",
+  "countdownMinutes": "دقيقة",
+  "countdownSeconds": "ثانية",
+  "omrahStartDate": "موعد البدء: {date}",
+  "@omrahStartDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "omrahTimeArrivedProvider": "حان موعد بدء المناسك، يمكنك البدء الآن",
+  "omrahTimeArrivedUser": "حان موعد عمرتك، سيبدأ مقدم الخدمة المناسك قريبًا",
+  "ritualsLockedUntil": "تبدأ المناسك في {date}",
+  "@ritualsLockedUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "omrahNotStartedYet": "لم يحن موعد الطلب بعد، تبدأ المناسك في {date}",
+  "@omrahNotStartedYet": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "upcomingOmrah": "عمرة قادمة",
+  "startsInDaysHours": "تبدأ بعد {days} يوم و {hours} ساعة",
+  "@startsInDaysHours": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "startsInClock": "تبدأ بعد {time}",
+  "@startsInClock": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  }
+}

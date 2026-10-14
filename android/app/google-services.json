@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "742573837655",
+    "project_id": "moneeb-505eb",
+    "storage_bucket": "moneeb-505eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742573837655:android:758470c40c5d89918d0212",
+        "android_client_info": {
+          "package_name": "com.linkcom.moneeb.sa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQxirx38ji71U3cCBGhNkIzOghcxnxhRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742573837655:android:9ccbf610b1596e5c8d0212",
+        "android_client_info": {
+          "package_name": "com.moneeb.sa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQxirx38ji71U3cCBGhNkIzOghcxnxhRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

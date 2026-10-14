@@ -1,0 +1,16 @@
+{
+  "summary": "Complete architecture reference for the Moneeb Flutter project. Covers clean architecture structure (feature folders with data/domain/presentation layers), part-of library pattern, Cubit/State with StateBox, DioHelper + repository pattern, AppColors theme system, AppBars, navigation via AppRouteNavigator, context extensions, DI with injectable/get_it, and Skeletonizer for loading states.",
+  "created_at": "2026-04-06T14:50:00+02:00",
+  "last_accessed": "2026-04-06T14:50:00+02:00",
+  "references": [
+    "i:/FLUTTERPROJECTS/khalil/moneeb/lib/features/zad/zad_imports.dart",
+    "i:/FLUTTERPROJECTS/khalil/moneeb/lib/core/utils/src/constants/style/app_colors.dart",
+    "i:/FLUTTERPROJECTS/khalil/moneeb/lib/core/utils/src/extensions/context.dart",
+    "i:/FLUTTERPROJECTS/khalil/moneeb/lib/core/utils/src/navigation/router_functions.dart",
+    "i:/FLUTTERPROJECTS/khalil/moneeb/lib/core/base/helpers/src/base_cubit.dart",
+    "i:/FLUTTERPROJECTS/khalil/moneeb/lib/core/base/helpers/src/async/state_box.dart",
+    "i:/FLUTTERPROJECTS/khalil/moneeb/lib/core/base/helpers/src/failure_handle/collect.dart",
+    "i:/FLUTTERPROJECTS/khalil/moneeb/lib/core/base/di/data_injector.dart",
+    "i:/FLUTTERPROJECTS/khalil/moneeb/lib/core/app_material/src/app_bars/app_bars.dart"
+  ]
+}
