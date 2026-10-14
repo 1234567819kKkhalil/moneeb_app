@@ -2010,7 +2010,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String shareProviderProfile(String name, String username) {
-    return 'تعرف على $name (@$username) - مقدم عمرة معتمد على منيب 🕋\n\nمنيب هي منصة متخصصة في العمرة بالنيابة، تتيح للمستخدمين طلب أداء العمرة عن المرضى والعاجزين والمتوفين والشهداء من خلال مقدمي عمرة معتمدين تم التحقق من بياناتهم واعتمادهم من قبل إدارة التطبيق.\n\nيوفر التطبيق تجربة موثوقة وشفافة تمكن طالب العمرة من متابعة جميع مراحل تنفيذ العمرة خطوة بخطوة، مع الاطلاع على التوثيق المرتبط بكل مرحلة من خلال الصور والفيديوهات والموقع المباشر أثناء التنفيذ.\n\nمنيب... تجربة موثقة وشفافة لمتابعة العمرة بالنيابة بكل ثقة واطمئنان.';
+    return 'تعرف على $name (@$username) - مقدم عمرة معتمد على منيب 🕋\n\nمنيب هي منصة متخصصة في العمرة بالنيابة، تتيح للمستخدمين طلب أداء العمرة عن المرضى والعاجزين والمتوفين والشهداء من خلال مقدمي عمرة معتمدين تم التحقق من بياناتهم واعتمادهم من قبل إدارة التطبيق.\n\nيوفر التطبيق تجربة موثوقة وشفافة تمكن طالب العمرة من متابعة جميع توثيقات تنفيذ العمرة خطوة بخطوة، مع الاطلاع على كل توثيق من خلال الصور والفيديوهات والموقع المباشر أثناء التنفيذ.\n\nمنيب... تجربة موثقة وشفافة لمتابعة العمرة بالنيابة بكل ثقة واطمئنان.';
   }
 
   @override
@@ -2563,10 +2563,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get finish => 'انهاء';
 
   @override
-  String get phaseOne => 'المرحلة الإولى';
+  String get phaseMekat => 'توثيق الميقات';
 
   @override
-  String get phaseTwo => 'المرحلة الثانية';
+  String get phaseTawaf => 'توثيق الطواف';
 
   @override
   String get tawafInstructions => 'إرشادات الطواف';
@@ -2581,7 +2581,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tawafVerifyDuaa => 'توثيق فيديو تلبية الدعاء لصاحب العمره';
 
   @override
-  String get phaseThree => 'المرحلة الثالثة';
+  String get phaseMakam => 'توثيق مقام إبراهيم';
 
   @override
   String get makamInstructions => 'إرشادات المقام الإبراهيمي';
@@ -2598,7 +2598,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'صورة للمكان من الخلف أو للقبّة الزجاجية للمقام.';
 
   @override
-  String get phaseFour => 'المرحلة الرابعة';
+  String get phaseSafaAndMarwa => 'توثيق السعي بين الصفا والمروة';
 
   @override
   String get safaMarwaInstructions => 'السعي بين الصفا والمروة';
@@ -2626,13 +2626,13 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get mekatVerifyFirst =>
-      'التوثيق الاول عن طريق الجوجل ماب لتحديد الميقات';
+      'توثيق الميقات عن طريق خرائط جوجل';
 
   @override
-  String get mekatVerifySecond => 'التوثيق التاني عن طريق الفيديو';
+  String get mekatVerifySecond => 'توثيق الميقات عن طريق الفيديو';
 
   @override
-  String get phaseFive => 'المرحلة الخامسة';
+  String get phaseTahalol => 'توثيق التحلل';
 
   @override
   String get tahalolVideo => 'فيديو';
@@ -3112,7 +3112,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get omrahConclusion => 'الخاتمة';
 
   @override
-  String get endOfJourney => 'انتهاء مرحلة ';
+  String get endOfJourney => 'انتهاء توثيق ';
 
   @override
   String get omrahCompletionConfirmed =>
@@ -3140,10 +3140,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get meeqatVideoDocumentation => 'توثيق فيديو الميقات';
 
   @override
-  String get tawafVideoDocumentation => 'توثيق مرحلة بدء الطواف';
+  String get tawafVideoDocumentation => 'توثيق بدء الطواف';
 
   @override
-  String get saiVideoDocumentation => 'توثيق فيديو مرحلة السعي';
+  String get saiVideoDocumentation => 'توثيق فيديو السعي';
 
   @override
   String get ibrahimMakamPrayerVideo => 'فيديو صلاة المقام الابراهيمي';
@@ -3152,15 +3152,15 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tahalulVideoDocumentation => 'توثيق فيديو التحلل';
 
   @override
-  String get stepDocumentedSuccessfully => 'تم توثيق المرحلة بنجاح';
+  String get stepDocumentedSuccessfully => 'تم التوثيق بنجاح';
 
   @override
   String nextStepIs(String nextStep) {
-    return 'المرحله التالية هي $nextStep';
+    return 'التوثيق التالي هو $nextStep';
   }
 
   @override
-  String get nextStep => 'المرحلة التالية';
+  String get nextStep => 'التوثيق التالي';
 
   @override
   String get tapToCaptureImage => 'اضغط لالتقاط صورة';
@@ -3425,7 +3425,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'أن ألتزم بالأحكام الشرعية المتعلقة بعمرة البدل، وبالتعليمات التشغيلية المعتمدة لدى منيب.';
 
   @override
-  String get charterS3I6 => 'ألا أؤكد تنفيذ أي مرحلة قبل أدائها فعليًا.';
+  String get charterS3I6 => 'ألا أؤكد أي توثيق قبل أدائه فعليًا.';
 
   @override
   String get charterS3I7 =>
@@ -3440,7 +3440,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get charterS4I1 =>
-      'أوثّق المراحل المطلوبة من داخل تطبيق منيب حصرًا، ومن مواقعها الفعلية وفي أوقاتها الحقيقية.';
+      'أُجري التوثيقات المطلوبة من داخل تطبيق منيب حصرًا، ومن مواقعها الفعلية وفي أوقاتها الحقيقية.';
 
   @override
   String get charterS4I2 =>
@@ -3456,7 +3456,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get charterS4I5 =>
-      'لا أعدّل التوثيق أو أزوّره أو أعيد تمثيل أي مرحلة بعد انتهائها على أنها توثيق مباشر.';
+      'لا أعدّل التوثيق أو أزوّره أو أعيد تمثيل أي توثيق بعد انتهائه على أنه توثيق مباشر.';
 
   @override
   String get charterS4I6 =>
@@ -3468,7 +3468,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get charterS4I8 =>
-      'أوافق على استخدام الموقع الجغرافي والوقت والكاميرا داخل التطبيق للتحقق من مراحل العمرة أثناء تنفيذ الطلب.';
+      'أوافق على استخدام الموقع الجغرافي والوقت والكاميرا داخل التطبيق للتحقق من توثيقات العمرة أثناء تنفيذ الطلب.';
 
   @override
   String get charterS5Title => 'خامسًا: الخصوصية والسلوك';
@@ -3527,7 +3527,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get charterOathBody =>
-      'أقسم بالله العظيم أن جميع البيانات والمستندات والإقرارات التي قدمتها صحيحة، وأنني سبق أن أديت العمرة عن نفسي، وأنني إذا قُبلت مؤديًا لدى منصة منيب فسأؤدي كل عمرة أقبلها بنفسي، عن الشخص المحدد في الطلب، وسأتم مناسكها كاملة حتى التحلل، وأوثق مراحلها توثيقًا حقيقيًا من مواقعها الفعلية وفي أوقاتها الصحيحة، دون كذب أو تزوير أو تحايل أو استبدال أو إنابة شخص آخر، وأن ألتزم بجميع ما ورد في هذا الميثاق. والله على ما أقول شهيد.';
+      'أقسم بالله العظيم أن جميع البيانات والمستندات والإقرارات التي قدمتها صحيحة، وأنني سبق أن أديت العمرة عن نفسي، وأنني إذا قُبلت مؤديًا لدى منصة منيب فسأؤدي كل عمرة أقبلها بنفسي، عن الشخص المحدد في الطلب، وسأتم مناسكها كاملة حتى التحلل، وأوثقها توثيقًا حقيقيًا من مواقعها الفعلية وفي أوقاتها الصحيحة، دون كذب أو تزوير أو تحايل أو استبدال أو إنابة شخص آخر، وأن ألتزم بجميع ما ورد في هذا الميثاق. والله على ما أقول شهيد.';
 
   @override
   String get charterEndOfDocument => 'نهاية الميثاق';
@@ -3621,14 +3621,14 @@ class AppLocalizationsAr extends AppLocalizations {
       'ثم التكبير عند محاذاة الحجر الأسود.';
 
   @override
-  String get stepProofRejected => 'رفضت الإدارة إثبات هذه المرحلة';
+  String get stepProofRejected => 'رفضت الإدارة إثبات هذا التوثيق';
 
   @override
   String get rejectionReason => 'سبب الرفض';
 
   @override
   String get reuploadStepProofHint =>
-      'يرجى توثيق هذه المرحلة ورفع الإثبات مرة أخرى.';
+      'يرجى إعادة هذا التوثيق ورفع الإثبات مرة أخرى.';
 
   @override
   String get proofRejectedStatus => 'تم رفض الإثبات';
